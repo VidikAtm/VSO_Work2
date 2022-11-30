@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<texts lang="es">
+	<p id="VSO_SigninWindowTitle">Guardar progreso</p>
+	<p id="VSO_SigninWindowText">Inicia sesión para guardar tu progreso.</p>
+
+	<p id="VSO_SigninFBConnectedBtn">Conectado</p>
+	<p id="VSO_SigninFBBtn">Iniciar sesión con Facebook</p>
+
+	<p id="VSO_SigninAppleConnectedBtn">Conectado</p>
+	<p id="VSO_SigninAppleBtn">Iniciar sesión con Apple</p>
+</texts>

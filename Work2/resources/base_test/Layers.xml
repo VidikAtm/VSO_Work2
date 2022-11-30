@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<GUI>
+  <include>gui.lua</include>
+
+  <Layer name="SceneDrawWithBackLayer" order="-1" inputTransparent="false">
+    <Controls>
+      <SceneBack name="SceneBack"/>
+      <SceneDraw name="SceneDraw"/>
+    </Controls>
+    <Resource>
+      <group>TestGroup</group>
+      <group>MainMenu</group>
+    </Resource>
+  </Layer>
+    
+
+</GUI>

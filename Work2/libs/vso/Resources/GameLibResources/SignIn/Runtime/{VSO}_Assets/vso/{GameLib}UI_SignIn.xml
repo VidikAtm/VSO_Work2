@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<asset assetType="sceneObject">
+	<!--fixes: 1-->
+	<!--physics: 1-->
+	<!--vso: 28-->
+	<root name="UI_SignIn">
+		<uid entityId="717823733" />
+		<transform />
+		<sorting type="priority">
+			<ptr priorityValue="1">
+				<uid entityId="1120982708" />
+			</ptr>
+		</sorting>
+		<behaviours type="screenBoard">
+			<ptr isAutoUpdatable="true">
+				<uid entityId="2544812680" />
+			</ptr>
+		</behaviours>
+		<behaviours type="input">
+			<ptr>
+				<uid entityId="870873756" />
+			</ptr>
+		</behaviours>
+		<behaviours type="layout">
+			<ptr>
+				<uid entityId="552309542" />
+			</ptr>
+		</behaviours>
+		<behaviours type="signinWithApple">
+			<ptr>
+				<uid entityId="761270791" />
+				<closeButton path="2747438060" />
+				<facebookButton path="1397077959" />
+				<facebookLabelRef path="1328812867" />
+				<appleButton path="3701023200" />
+				<appleLabelRef path="766776806" />
+				<textRef path="4103574433" />
+			</ptr>
+		</behaviours>
+		<children name="BlackFade">
+			<uid entityId="2272415673" />
+			<transform />
+			<component type="blackFade">
+				<ptr color="#000000A0">
+					<uid entityId="760080226" />
+				</ptr>
+			</component>
+			<behaviours type="animation">
+				<ptr id="{SignIn}_Fader_Show">
+					<uid entityId="421077132" />
+					<remoteNodeLocator />
+				</ptr>
+			</behaviours>
+			<behaviours type="windowAnimationData">
+				<ptr>
+					<uid entityId="4095465613" />
+					<animationTargets onOpen="{SignIn}_Fader_Show" onClose="{SignIn}_Fader_Hide" onHide="{SignIn}_Fader_Hide" onShow="{SignIn}_Fader_Show">
+						<target path="421077132" />
+					</animationTargets>
+				</ptr>
+			</behaviours>
+		</children>
+		<children name="Scaler">
+			<uid entityId="3278524271" />
+			<transform>
+				<position x="512.5" y="384.5" z="0.0" />
+				<scale x="0.87" y="0.87" z="1.0" />
+			</transform>
+			<behaviours type="anchoredElement">
+				<ptr>
+					<uid entityId="4242963785" />
+					<anchorTarget path="2544812680" />
+					<verticalAnchor nrp_1="0.5" offset_1="-50.0" offset_2="100.0" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-50.0" offset_2="100.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+				</ptr>
+			</behaviours>
+			<behaviours type="deviceScaleTuner">
+				<ptr tabletScale="0.87" appliedScale="0.87" scaleToAdd="0.87">
+					<uid entityId="336391419" />
+				</ptr>
+			</behaviours>
+			<children name="Panel">
+				<uid entityId="4167023082" />
+				<transform>
+					<position x="1.526e-05" y="3.0" z="0.0" />
+				</transform>
+				<behaviours type="axisAlignedLayoutGroup">
+					<ptr verticalPolicy="AutoRectPreferredSize" isVertical="true">
+						<uid entityId="1704695453" />
+						<anchorTarget path="4242963785" />
+						<verticalAnchor nrp_1="0.5" offset_1="3.0" />
+						<horizontalAnchor nrp_1="0.5" />
+						<normalizedPivot x="0.5" y="0.5" />
+					</ptr>
+				</behaviours>
+				<children name="Bg_bot">
+					<uid entityId="2852632705" />
+					<transform>
+						<position x="0.0" y="-210.0" z="0.0" />
+					</transform>
+					<behaviours type="simpleLayoutElement">
+						<ptr>
+							<uid entityId="2707183042" />
+							<verticalSize prefferedSize="38.0" />
+						</ptr>
+					</behaviours>
+					<children name="Bg">
+						<uid entityId="3978724638" />
+						<transform>
+							<position x="0.0" y="19.0" z="0.0" />
+						</transform>
+						<component type="image9Slice">
+							<ptr fitPolicy="Stretch" xSliceLeft="0.48" xSliceRight="0.52" ySliceLeft="0.9">
+								<uid entityId="1262006020" />
+								<material />
+								<texture id="{GameLib}SIn_bg_bot" />
+							</ptr>
+						</component>
+						<behaviours type="anchoredElement">
+							<ptr>
+								<uid entityId="3773278618" />
+								<anchorTarget path="2707183042" />
+								<verticalAnchor nrp_1="0.5" offset_1="-19.0" offset_2="38.0" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-330.0" offset_2="660.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+							</ptr>
+						</behaviours>
+					</children>
+				</children>
+				<children name="ButtonFb">
+					<uid entityId="1349026444" />
+					<transform>
+						<position x="0.0" y="-172.0" z="0.0" />
+					</transform>
+					<behaviours type="simpleLayoutElement">
+						<ptr>
+							<uid entityId="4224400599" />
+							<verticalSize prefferedSize="84.0" />
+						</ptr>
+					</behaviours>
+					<children name="Bg_mid">
+						<uid entityId="3648954010" />
+						<transform>
+							<position x="0.0" y="42.0" z="0.0" />
+						</transform>
+						<component type="image9Slice">
+							<ptr fitPolicy="Stretch" xSliceLeft="0.48" xSliceRight="0.52" ySliceLeft="0.48" ySliceRight="0.52">
+								<uid entityId="3122702370" />
+								<material />
+								<texture id="{GameLib}SIn_bg_mid" />
+							</ptr>
+						</component>
+						<behaviours type="anchoredElement">
+							<ptr>
+								<uid entityId="2628262570" />
+								<anchorTarget path="4224400599" />
+								<verticalAnchor nrp_1="0.5" offset_1="-42.0" offset_2="84.0" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-330.0" offset_2="660.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+							</ptr>
+						</behaviours>
+					</children>
+					<children name="Button">
+						<uid entityId="2860665446" />
+						<transform>
+							<position x="0.0" y="42.0" z="0.0" />
+						</transform>
+						<behaviours type="button">
+							<ptr>
+								<uid entityId="1397077959" />
+							</ptr>
+						</behaviours>
+						<behaviours type="buttonStateGraph">
+							<ptr>
+								<uid entityId="693591223" />
+							</ptr>
+						</behaviours>
+						<behaviours type="stateGraph">
+							<ptr>
+								<uid entityId="477593168" />
+								<stateGraph id="{SignIn}_ButtonPress" />
+							</ptr>
+						</behaviours>
+						<behaviours type="animation">
+							<ptr startMode="Manual">
+								<uid entityId="1977734984" />
+								<remoteNodeLocator />
+							</ptr>
+						</behaviours>
+						<behaviours type="anchoredElement">
+							<ptr>
+								<uid entityId="674590207" />
+								<anchorTarget path="4224400599" />
+								<verticalAnchor nrp_1="0.5" offset_1="-32.0" offset_2="64.0" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-195.0" offset_2="390.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+							</ptr>
+						</behaviours>
+						<children name="bg">
+							<uid entityId="3043265659" />
+							<transform />
+							<component type="image9Slice">
+								<ptr fitPolicy="Stretch" xSliceLeft="0.48" xSliceRight="0.52" ySliceLeft="0.48" ySliceRight="0.52">
+									<uid entityId="3422641518" />
+									<material />
+									<texture id="{GameLib}SIn_fb_btn_bg" />
+								</ptr>
+							</component>
+							<behaviours type="anchoredElement">
+								<ptr>
+									<uid entityId="2264915544" />
+									<anchorTarget path="4224400599" />
+									<verticalAnchor nrp_1="0.5" offset_1="-34.0" offset_2="68.0" />
+									<horizontalAnchor nrp_1="0.5" offset_1="197.0" offset_2="-394.0" />
+									<normalizedPivot x="0.5" y="0.5" />
+								</ptr>
+							</behaviours>
+						</children>
+						<children name="label">
+							<uid entityId="2102302825" />
+							<transform>
+								<position x="0.0" y="2.0" z="0.0" />
+							</transform>
+							<behaviours type="axisAlignedLayoutGroup">
+								<ptr horizontalPolicy="AutoRectPreferredSize" spaceBetweenElements="14.0">
+									<uid entityId="2182360741" />
+									<anchorTarget path="674590207" />
+									<verticalAnchor nrp_1="0.5" offset_1="2.0" />
+									<horizontalAnchor nrp_1="0.5" />
+									<normalizedPivot x="0.5" y="0.5" />
+								</ptr>
+							</behaviours>
+							<children name="fbicon">
+								<uid entityId="2960476883" />
+								<transform>
+									<position x="-160.5" y="0.0" z="0.0" />
+								</transform>
+								<behaviours type="simpleLayoutElement">
+									<ptr>
+										<uid entityId="2922567677" />
+										<horizontalSize prefferedSize="27.0" />
+									</ptr>
+								</behaviours>
+								<children name="icon">
+									<uid entityId="318170893" />
+									<transform>
+										<position x="13.5" y="-2.0" z="0.0" />
+									</transform>
+									<component type="image">
+										<ptr>
+											<uid entityId="299814190" />
+											<material />
+											<spriteOrTexture id="{GameLib}SIn_fb_icon" />
+										</ptr>
+									</component>
+									<behaviours type="anchoredElement">
+										<ptr>
+											<uid entityId="2368265208" />
+											<anchorTarget path="2922567677" />
+											<verticalAnchor nrp_1="0.5" offset_1="-15.5" offset_2="27.0" />
+											<horizontalAnchor nrp_1="0.5" offset_1="-13.5" offset_2="27.0" />
+											<normalizedPivot x="0.5" y="0.5" />
+										</ptr>
+									</behaviours>
+								</children>
+							</children>
+							<children name="text">
+								<uid entityId="3807475289" />
+								<transform>
+									<position x="-119.5" y="-20.0" z="0.0" />
+								</transform>
+								<component type="label">
+									<ptr text="%SaveProgressFB%" textOverflowPolicy="NoBreak" minSize="15.0" sfs="true">
+										<uid entityId="1328812867" />
+										<material />
+										<fontStyle>
+											<asset fontName="Ubuntu" size="28.0" />
+										</fontStyle>
+										<curve />
+									</ptr>
+								</component>
+								<behaviours type="textLayoutElement">
+									<ptr overrideMinimalSize="false" overridePrefferedSize="true">
+										<uid entityId="34476841" />
+										<horizontalSize minSize="20.0" prefferedSize="164.903" maxSize="280.0" />
+										<verticalSize minSize="40.0" prefferedSize="40.0" maxSize="40.0" />
+									</ptr>
+								</behaviours>
+							</children>
+						</children>
+					</children>
+				</children>
+				<children name="ButtonApple">
+					<uid entityId="2102587883" />
+					<transform>
+						<position x="0.0" y="-88.0" z="0.0" />
+					</transform>
+					<behaviours type="simpleLayoutElement">
+						<ptr>
+							<uid entityId="577181515" />
+							<verticalSize prefferedSize="84.0" />
+						</ptr>
+					</behaviours>
+					<children name="Bg_mid">
+						<uid entityId="3123300963" />
+						<transform>
+							<position x="0.0" y="42.0" z="0.0" />
+						</transform>
+						<component type="image9Slice">
+							<ptr fitPolicy="Stretch" xSliceLeft="0.48" xSliceRight="0.52" ySliceLeft="0.48" ySliceRight="0.52">
+								<uid entityId="1241183211" />
+								<material />
+								<texture id="{GameLib}SIn_bg_mid" />
+							</ptr>
+						</component>
+						<behaviours type="anchoredElement">
+							<ptr>
+								<uid entityId="3920642195" />
+								<anchorTarget path="577181515" />
+								<verticalAnchor nrp_1="0.5" offset_1="-42.0" offset_2="84.0" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-330.0" offset_2="660.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+							</ptr>
+						</behaviours>
+					</children>
+					<children name="Button">
+						<uid entityId="899535579" />
+						<transform>
+							<position x="0.0" y="42.0" z="0.0" />
+						</transform>
+						<behaviours type="button">
+							<ptr>
+								<uid entityId="3701023200" />
+							</ptr>
+						</behaviours>
+						<behaviours type="buttonStateGraph">
+							<ptr>
+								<uid entityId="605422722" />
+							</ptr>
+						</behaviours>
+						<behaviours type="stateGraph">
+							<ptr>
+								<uid entityId="1302286980" />
+								<stateGraph id="{SignIn}_ButtonPress" />
+							</ptr>
+						</behaviours>
+						<behaviours type="animation">
+							<ptr startMode="Manual">
+								<uid entityId="829776624" />
+								<remoteNodeLocator />
+							</ptr>
+						</behaviours>
+						<behaviours type="anchoredElement">
+							<ptr>
+								<uid entityId="3645200115" />
+								<anchorTarget path="577181515" />
+								<verticalAnchor nrp_1="0.5" offset_1="-32.0" offset_2="64.0" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-195.0" offset_2="390.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+							</ptr>
+						</behaviours>
+						<children name="bg">
+							<uid entityId="3986609111" />
+							<transform />
+							<component type="image9Slice">
+								<ptr fitPolicy="Stretch" xSliceLeft="0.48" xSliceRight="0.52" ySliceLeft="0.48" ySliceRight="0.52">
+									<uid entityId="18689377" />
+									<material />
+									<texture id="{GameLib}SIn_apple_btn_bg" />
+								</ptr>
+							</component>
+							<behaviours type="anchoredElement">
+								<ptr>
+									<uid entityId="1603939823" />
+									<anchorTarget path="577181515" />
+									<verticalAnchor nrp_1="0.5" offset_1="-34.0" offset_2="68.0" />
+									<horizontalAnchor nrp_1="0.5" offset_1="197.0" offset_2="-394.0" />
+									<normalizedPivot x="0.5" y="0.5" />
+								</ptr>
+							</behaviours>
+						</children>
+						<children name="label">
+							<uid entityId="268643239" />
+							<transform>
+								<position x="7.629e-06" y="2.0" z="0.0" />
+							</transform>
+							<behaviours type="axisAlignedLayoutGroup">
+								<ptr horizontalPolicy="AutoRectPreferredSize" spaceBetweenElements="16.0">
+									<uid entityId="130216420" />
+									<anchorTarget path="3645200115" />
+									<verticalAnchor nrp_1="0.5" offset_1="2.0" />
+									<horizontalAnchor nrp_1="0.5" offset_1="-126.764" offset_2="253.528" />
+									<normalizedPivot x="0.5" y="0.5" />
+								</ptr>
+							</behaviours>
+							<children name="fbicon">
+								<uid entityId="1739326100" />
+								<transform>
+									<position x="-146.627" y="0.0" z="0.0" />
+								</transform>
+								<behaviours type="simpleLayoutElement">
+									<ptr>
+										<uid entityId="3336434071" />
+										<horizontalSize prefferedSize="21.0" />
+									</ptr>
+								</behaviours>
+								<children name="icon">
+									<uid entityId="2649921629" />
+									<transform>
+										<position x="10.5" y="0.0" z="0.0" />
+									</transform>
+									<component type="image">
+										<ptr>
+											<uid entityId="2903293651" />
+											<material />
+											<spriteOrTexture id="{GameLib}SIn_apple_icon" />
+										</ptr>
+									</component>
+									<behaviours type="anchoredElement">
+										<ptr>
+											<uid entityId="3306819290" />
+											<anchorTarget path="3336434071" />
+											<verticalAnchor nrp_1="0.5" offset_1="-15.0" offset_2="30.0" />
+											<horizontalAnchor nrp_1="0.5" offset_1="-10.5" offset_2="21.0" />
+											<normalizedPivot x="0.5" y="0.5" />
+										</ptr>
+									</behaviours>
+								</children>
+							</children>
+							<children name="text">
+								<uid entityId="3322386898" />
+								<transform>
+									<position x="-109.627" y="-20.0" z="0.0" />
+								</transform>
+								<component type="label">
+									<ptr text="%SaveProgressiOS%" textOverflowPolicy="NoBreak" minSize="15.0" sfs="true">
+										<uid entityId="766776806" />
+										<material />
+										<fontStyle>
+											<asset fontName="Ubuntu" size="28.0" />
+										</fontStyle>
+										<curve />
+									</ptr>
+								</component>
+								<behaviours type="textLayoutElement">
+									<ptr overrideMinimalSize="false" overridePrefferedSize="true">
+										<uid entityId="690462426" />
+										<horizontalSize minSize="20.0" prefferedSize="164.903" maxSize="280.0" />
+										<verticalSize minSize="40.0" prefferedSize="40.0" maxSize="40.0" />
+									</ptr>
+								</behaviours>
+							</children>
+						</children>
+					</children>
+				</children>
+				<children name="Bg_top">
+					<uid entityId="1227695240" />
+					<transform>
+						<position x="0.0" y="-4.0" z="0.0" />
+					</transform>
+					<behaviours type="simpleLayoutElement">
+						<ptr>
+							<uid entityId="2243862406" />
+							<verticalSize prefferedSize="214.0" />
+						</ptr>
+					</behaviours>
+					<children name="Bg">
+						<uid entityId="779057043" />
+						<transform>
+							<position x="0.0" y="107.0" z="0.0" />
+						</transform>
+						<component type="image9Slice">
+							<ptr fitPolicy="Stretch" xSliceLeft="0.48" xSliceRight="0.52" ySliceRight="0.1">
+								<uid entityId="3697217317" />
+								<material />
+								<texture id="{GameLib}SIn_bg_top" />
+							</ptr>
+						</component>
+						<behaviours type="anchoredElement">
+							<ptr>
+								<uid entityId="288889102" />
+								<anchorTarget path="2243862406" />
+								<verticalAnchor nrp_1="0.5" offset_1="-107.0" offset_2="214.0" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-330.0" offset_2="660.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+							</ptr>
+						</behaviours>
+					</children>
+					<children name="Bg_Line">
+						<uid entityId="477387271" />
+						<transform>
+							<position x="0.0" y="122.0" z="0.0" />
+						</transform>
+						<component type="image9Slice">
+							<ptr fitPolicy="Stretch" xSliceLeft="0.48" xSliceRight="0.52">
+								<uid entityId="2910377182" />
+								<material />
+								<texture id="{GameLib}SIn_bg_line" />
+							</ptr>
+						</component>
+						<behaviours type="anchoredElement">
+							<ptr>
+								<uid entityId="4270150788" />
+								<anchorTarget path="2243862406" />
+								<verticalAnchor nrp_1="0.5" offset_1="14.0" offset_2="2.0" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-328.0" offset_2="656.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+							</ptr>
+						</behaviours>
+					</children>
+					<children name="ButtonClose">
+						<uid entityId="2424318841" />
+						<transform>
+							<position x="285.0" y="167.0" z="0.0" />
+						</transform>
+						<component type="image">
+							<ptr>
+								<uid entityId="144765628" />
+								<material />
+								<spriteOrTexture id="{GameLib}SIn_close_icon" />
+							</ptr>
+						</component>
+						<behaviours type="anchoredElement">
+							<ptr>
+								<uid entityId="3607151831" />
+								<anchorTarget path="2243862406" />
+								<verticalAnchor nrp_1="0.5" offset_1="50.0" offset_2="20.0" />
+								<horizontalAnchor nrp_1="0.5" offset_1="275.0" offset_2="20.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+							</ptr>
+						</behaviours>
+						<behaviours type="button">
+							<ptr>
+								<uid entityId="2747438060" />
+							</ptr>
+						</behaviours>
+						<behaviours type="buttonStateGraph">
+							<ptr>
+								<uid entityId="1713074415" />
+							</ptr>
+						</behaviours>
+						<behaviours type="stateGraph">
+							<ptr>
+								<uid entityId="1850787607" />
+								<stateGraph id="{SignIn}_ButtonPress" />
+							</ptr>
+						</behaviours>
+						<behaviours type="animation">
+							<ptr startMode="Manual">
+								<uid entityId="68157046" />
+								<remoteNodeLocator />
+							</ptr>
+						</behaviours>
+						<children name="HitTest">
+							<uid entityId="4079436077" />
+							<transform>
+								<position x="-25.0" y="-25.0" z="0.0" />
+							</transform>
+							<component type="anchorRect">
+								<ptr>
+									<uid entityId="3509437114" />
+								</ptr>
+							</component>
+							<behaviours type="anchoredElement">
+								<ptr>
+									<uid entityId="204297487" />
+									<anchorTarget path="3607151831" />
+									<verticalAnchor offset_1="-15.0" nrp_2="1.0" offset_2="30.0" />
+									<horizontalAnchor offset_1="-15.0" nrp_2="1.0" offset_2="30.0" />
+								</ptr>
+							</behaviours>
+						</children>
+					</children>
+					<children name="Title">
+						<uid entityId="478342054" />
+						<transform>
+							<position x="0.0" y="169.0" z="0.0" />
+						</transform>
+						<component type="label">
+							<ptr text="%VSO_SigninWindowTitle%" textOverflowPolicy="NoBreak" sfs="true">
+								<uid entityId="4229976174" />
+								<material />
+								<fontStyle>
+									<asset fontName="Ubuntu" size="38.0" color="#000000FF" />
+								</fontStyle>
+								<curve />
+							</ptr>
+						</component>
+						<behaviours type="anchoredElement">
+							<ptr>
+								<uid entityId="1714718940" />
+								<anchorTarget path="2243862406" />
+								<verticalAnchor nrp_1="0.5" offset_1="37.0" offset_2="50.0" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-250.0" offset_2="500.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+							</ptr>
+						</behaviours>
+					</children>
+					<children name="Text">
+						<uid entityId="2935755821" />
+						<transform>
+							<position x="0.0" y="61.0" z="0.0" />
+						</transform>
+						<component type="label">
+							<ptr text="%SaveProgressWindowText%" textOverflowPolicy="NoBreak" minLines="false">
+								<uid entityId="4103574433" />
+								<material />
+								<fontStyle>
+									<asset fontName="Ubuntu" size="24.0" color="#000000FF" />
+								</fontStyle>
+								<curve />
+							</ptr>
+						</component>
+						<behaviours type="anchoredElement">
+							<ptr>
+								<uid entityId="194232671" />
+								<anchorTarget path="2243862406" />
+								<verticalAnchor nrp_1="0.5" offset_1="-89.0" offset_2="86.0" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-215.0" offset_2="430.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+							</ptr>
+						</behaviours>
+					</children>
+				</children>
+			</children>
+		</children>
+	</root>
+</asset>

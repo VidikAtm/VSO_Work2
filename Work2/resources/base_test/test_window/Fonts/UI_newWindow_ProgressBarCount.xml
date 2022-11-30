@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<asset assetType="fontStyle" fontName="Poetsen One" fontName..editor..ref="assetType@FontFile; raw@true" size="27.0">
+	<!--vso: 3-->
+	<effects effectString="{&quot;blurX&quot;:2,&quot;blurY&quot;:2,&quot;offset&quot;:1,&quot;angle&quot;:90.0,&quot;strength&quot;:10.0,&quot;inner&quot;:false,&quot;color&quot;:4279716014,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" inspectorEffectString..editor="{&quot;blurX&quot;:2,&quot;blurY&quot;:2,&quot;offset&quot;:1,&quot;angle&quot;:90.0,&quot;strength&quot;:10.0,&quot;inner&quot;:false,&quot;color&quot;:4279716014,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" />
+</asset>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<texts lang="de">
+	<p id="VSO_SigninWindowTitle">Fortschritt sp.</p>
+	<p id="VSO_SigninWindowText">Anmelden, um Fortschritt zu speichern.</p>
+
+	<p id="VSO_SigninFBConnectedBtn">Verbindung trennen</p>
+	<p id="VSO_SigninFBBtn">Mit Facebook anmelden</p>
+
+	<p id="VSO_SigninAppleConnectedBtn">Verbindung trennen</p>
+	<p id="VSO_SigninAppleBtn">Mit Apple anmelden</p>
+</texts>

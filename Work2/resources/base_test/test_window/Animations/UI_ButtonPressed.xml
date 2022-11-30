@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip">
+	<!--vso: 8-->
+	<track type="fPoint">
+		<ptr binding=":scale2d" name=":scale2d">
+			<x>
+				<key fixedGrad="true">
+					<value lower="0.9" upper="0.9" />
+				</key>
+				<key fixedGrad="true" time="1.0">
+					<value lower="0.9" upper="0.9" />
+				</key>
+			</x>
+			<y>
+				<key fixedGrad="true">
+					<value lower="0.90039" upper="0.90039" />
+				</key>
+				<key fixedGrad="true" time="1.0">
+					<value lower="0.90039" upper="0.90039" />
+				</key>
+			</y>
+		</ptr>
+	</track>
+</asset>

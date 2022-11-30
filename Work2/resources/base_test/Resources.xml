@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Resources>	
+	<Shaders group="Start">
+		<advancedShader id="default_advanced" vs="shaders/default" ps="shaders/default"/>
+		<advancedShader id="experimental" vs="shaders/experiment_advanced" ps="shaders/experiment_advanced"/>
+	</Shaders>
+
+	<Shaders group="Start">
+		<shader id="default" vs="shaders/default" ps="shaders/default"/>
+	</Shaders>
+
+	<Fonts group="Start">
+		<font name="Simple" family="Ubuntu-B" size="11" color="255;255;255;255" letterSpacing="0"/>
+		<font name="ArialStroke" family="Ubuntu-B" size="24" color="255;255;255;255" letterSpacing="0">
+			<effect type="stroke" strokeTop = "1" strokeBottom = "1" strokeLeft = "1" strokeRight = "1" color = "255;0;0;0" alpha = "1" />
+		</font>
+		<font name="Comic" family="ComicSansMSRegular" size="12" color="255;255;255;255" letterSpacing="0" lineInterval="-5.0"/>
+		<font name="Ubuntu" family="Ubuntu-B" size="60" letterSpacing="0" color="#884A00">
+			<effect alpha="0.3" type="shadow" blurX="10" blurY="10" strength="3" angle="0" inner="false" color="0;0;0;255" offset="0"/>
+		</font>
+		<font name="HanSans" family="HanSansNormal" size="24" color="255;255;255;255" lineInterval="-3" />
+		<font name="System" family="System.Default" size="12" color="255;255;255;255" letterSpacing="0" />
+		<font name="Arabic" family="DejaVuSans" size="20" color="255;255;255;255" lineInterval="10" />
+		<fontExtension family="Ubuntu-Bold0" extension="Ubuntu-Bold1" />
+		<font name="Arial" family="Ubuntu-B" size="12" color="255;255;255;255" letterSpacing="0" >
+			<effect alpha="0.1" type="shadow" blurX="2" blurY="2" strength="50" angle="0" inner="false" color="0;0;0;255" offset="0"/>
+		</font>
+		<font name="ArialSoftShadow_4" family="Ubuntu-B" size="80" color="0;0;255;255" letterSpacing="0">
+			<effect type="soft_shadow" size = "8" angle="90" inner="false" power = "0.5" color = "255;255;255;0" alpha = "1" offset="0" />
+		</font>
+		<font name="ArialSoftShadow_8" family="Ubuntu-B" size="80" color="0;0;255;255" letterSpacing="0">
+			<effect type="soft_shadow" size = "8" angle="90" inner="false" power = "1.0" color = "255;255;255;0" alpha = "1" offset="0" />
+		</font>
+		<font name="ArialSoftShadow_small" family="Ubuntu-B" size="24" color="0;0;255;255" letterSpacing="0">
+			<effect type="soft_shadow" size = "2" angle="90" inner="false" power = "1.0" color = "255;255;255;0" alpha = "1" offset="0" />
+		</font>
+	</Fonts>
+
+</Resources>

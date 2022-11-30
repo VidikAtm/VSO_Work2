@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<asset assetType="stateGraph" defaultState="Idle">
+	<!--fixes: 3-->
+	<!--vso: 3-->
+	<states type="state">
+		<ptr looped="true" name="Idle">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_newWindow_ButtonCard_Idle" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<inspectorPosition x="160.0" y="96.0" />
+			<transitions targetStateName="Pressed" />
+			<transitions targetStateName="Disabled" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr looped="true" name="Pressed">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_newWindow_ButtonCard_Pressed" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<inspectorPosition x="160.0" y="224.0" />
+			<transitions targetStateName="Idle" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr looped="true" name="Disabled">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_newWindow_Button_Disable" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<inspectorPosition x="-96.0" y="96.0" />
+			<transitions targetStateName="Idle" />
+		</ptr>
+	</states>
+</asset>

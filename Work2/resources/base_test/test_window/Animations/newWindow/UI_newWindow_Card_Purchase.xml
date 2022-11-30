@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip">
+	<!--vso: 8-->
+	<track type="color">
+		<ptr binding="IconsMini@color:color" name="IconsMini@color:color">
+			<alpha>
+				<key fixedGrad="true">
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key fixedGrad="true" time="1.0" />
+			</alpha>
+			<blue>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</blue>
+			<green>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</green>
+			<red>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</red>
+		</ptr>
+	</track>
+	<track type="float">
+		<ptr binding="IconsMini@anchoredElement:positionY" name="IconsMini@anchoredElement:positionY">
+			<param>
+				<key fixedGrad="true">
+					<value lower="15.0" upper="15.0" />
+				</key>
+				<key fixedGrad="true" time="1.0">
+					<value lower="150.0" upper="150.0" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+	<track type="bool">
+		<ptr binding="IconsMini:active" name="IconsMini:active">
+			<timeline>
+				<data first="0.0" second="true" />
+			</timeline>
+		</ptr>
+	</track>
+	<track type="bool">
+		<ptr binding="Button@button:isEnabled" name="Button@button:isEnabled">
+			<timeline>
+				<data first="0.0" second="false" />
+			</timeline>
+		</ptr>
+	</track>
+	<track type="color">
+		<ptr binding="Icons@color:color" name="Icons@color:color">
+			<alpha>
+				<key fixedGrad="true">
+					<value lower="175.0" upper="175.0" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.0">
+					<value lower="175.0" upper="175.0" />
+				</key>
+			</alpha>
+			<blue>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</blue>
+			<green>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</green>
+			<red>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</red>
+		</ptr>
+	</track>
+	<track type="color">
+		<ptr binding="CountText@color:color" name="CountText@color:color">
+			<alpha>
+				<key fixedGrad="true">
+					<value lower="175.0" upper="175.0" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.0">
+					<value lower="175.0" upper="175.0" />
+				</key>
+			</alpha>
+			<blue>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</blue>
+			<green>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</green>
+			<red>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</red>
+		</ptr>
+	</track>
+</asset>

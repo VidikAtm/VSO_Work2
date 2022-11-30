@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<asset assetType="stateGraph" defaultState="regular">
+	<!--fixes: 3-->
+	<!--vso: 3-->
+	<states type="state">
+		<ptr looped="true" name="hovered">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_ButtonIdle" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<inspectorPosition x="319.94" y="192.886" />
+			<transitions crossFadeDuration="0.1" crossFadeType="Relative" targetStateName="regular" />
+			<transitions crossFadeDuration="0.1" crossFadeType="Relative" targetStateName="press" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr looped="true" name="regular">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_ButtonIdle" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<inspectorPosition x="320.0" y="64.0" />
+			<transitions crossFadeDuration="0.1" crossFadeType="Relative" targetStateName="hovered" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr looped="true" name="pressed">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_ButtonPressed" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<inspectorPosition x="318.467" y="432.703" />
+			<transitions crossFadeDuration="0.1" crossFadeType="Relative" targetStateName="release" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr name="press">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_ButtonPress" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<inspectorPosition x="544.632" y="320.406" />
+			<transitions crossFadeDuration="0.1" crossFadeType="Relative" targetStateName="pressed" transitionInvervalBegin="0.9" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr name="release">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_ButtonRelease" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<inspectorPosition x="95.829" y="320.406" />
+			<transitions crossFadeDuration="0.1" crossFadeType="Relative" targetStateName="hovered" transitionInvervalBegin="0.9" />
+		</ptr>
+	</states>
+</asset>

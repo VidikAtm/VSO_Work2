@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<texts lang="it">
+	<p id="VSO_SigninWindowTitle">Salva i progressi</p>
+	<p id="VSO_SigninWindowText">Accedi per salvare i tuoi progressi di gioco.</p>
+
+	<p id="VSO_SigninFBConnectedBtn">Disconnetti</p>
+	<p id="VSO_SigninFBBtn">Accedi tramite Facebook</p>
+
+	<p id="VSO_SigninAppleConnectedBtn">Disconnetti</p>
+	<p id="VSO_SigninAppleBtn">Accedi tramite Apple</p>
+</texts>

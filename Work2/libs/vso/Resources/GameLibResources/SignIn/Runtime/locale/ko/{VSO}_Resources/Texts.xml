@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<texts lang="ko">
+	<p id="VSO_SigninWindowTitle">진행 상황 저장하기</p>
+	<p id="VSO_SigninWindowText">로그인하여 진행 상황 저장.</p>
+
+	<p id="VSO_SigninFBConnectedBtn">연결 해제</p>
+	<p id="VSO_SigninFBBtn">Facebook으로 로그인</p>
+
+	<p id="VSO_SigninAppleConnectedBtn">연결 해제</p>
+	<p id="VSO_SigninAppleBtn">Apple로 로그인</p>
+</texts>

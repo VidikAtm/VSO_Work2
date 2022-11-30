@@ -1,0 +1,86 @@
+[Window][Debug##Default]
+ViewportPos=467,1021
+ViewportId=0x9F5F46A1
+Size=400,400
+Collapsed=0
+
+[Window][###MainScreenView]
+Pos=0,0
+Size=1024,768
+Collapsed=0
+
+[Window][###Visual_Editor_Toolbar]
+ViewportPos=0,0
+ViewportId=0xA4D966FE
+Size=1920,91
+Collapsed=0
+DockId=0x00000002,0
+
+[Window][###Visual_Object_Editor]
+ViewportPos=0,0
+ViewportId=0x0595AB01
+Pos=4,87
+Size=485,572
+Collapsed=0
+DockId=0x00000008,0
+
+[Window][###InspectorWidget]
+ViewportPos=0,0
+ViewportId=0x0595AB01
+Pos=1426,87
+Size=490,949
+Collapsed=0
+DockId=0x00000005,0
+
+[Window][###AssetInspector0]
+ViewportPos=480,270
+ViewportId=0xAD3B23B8
+Size=960,540
+Collapsed=0
+
+[Window][###AssetExplorerView]
+ViewportPos=0,0
+ViewportId=0x0595AB01
+Pos=4,661
+Size=1420,375
+Collapsed=0
+DockId=0x00000007,0
+
+[Window][###SceneView__main]
+ViewportPos=0,0
+ViewportId=0x0595AB01
+Pos=491,87
+Size=933,572
+Collapsed=0
+DockId=0x00000009,0
+
+[Window][###MainWindow_View]
+ViewportPos=0,0
+ViewportId=0x0595AB01
+Pos=491,87
+Size=933,572
+Collapsed=0
+DockId=0x00000009,1
+
+[Window][###CloseAppConfirmPopUp]
+ViewportPos=839,460
+ViewportId=0xF04D1D32
+Size=300,90
+Collapsed=0
+
+[Window][###Visual_Editor_Main]
+ViewportPos=0,0
+ViewportId=0x0595AB01
+Size=1920,1040
+Collapsed=0
+
+[Docking][Data]
+DockSpace         ID=0x79AFAA76 Window=0x0595AB01 Pos=4,87 Size=1912,949 Split=Y
+  DockNode        ID=0x00000002 Parent=0x79AFAA76 SizeRef=1000,91 NoWindowMenuButton=1 Selected=0x57AE6137
+  DockNode        ID=0x00000003 Parent=0x79AFAA76 SizeRef=1000,926 Split=X Selected=0xD41DA50A
+    DockNode      ID=0x00000004 Parent=0x00000003 SizeRef=1420,926 Split=Y Selected=0xD41DA50A
+      DockNode    ID=0x00000006 Parent=0x00000004 SizeRef=1421,558 Split=X Selected=0xD41DA50A
+        DockNode  ID=0x00000008 Parent=0x00000006 SizeRef=485,539 NoWindowMenuButton=1 Selected=0xD41DA50A
+        DockNode  ID=0x00000009 Parent=0x00000006 SizeRef=933,539 NoWindowMenuButton=1 Selected=0xEE5195C9
+      DockNode    ID=0x00000007 Parent=0x00000004 SizeRef=1421,366 NoWindowMenuButton=1 Selected=0xB76DFCFD
+    DockNode      ID=0x00000005 Parent=0x00000003 SizeRef=490,926 NoWindowMenuButton=1 Selected=0xBC19F56B

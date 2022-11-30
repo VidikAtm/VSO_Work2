@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip">
+	<!--vso: 8-->
+	<track type="float">
+		<ptr binding="@anchoredElement:_horOff2" name="@anchoredElement:_horOff2">
+			<param>
+				<key fixedGrad="true" />
+				<key fixedGrad="true" time="1.0">
+					<value lower="216.0" upper="216.0" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+</asset>

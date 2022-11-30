@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<InstalledApps>
+    <!-- Обнаружение других наших игр на девайсе и в магазине -->
+	<app id="homescapes"
+		ios="fb200370150322559://something"
+		iosApp="1195621598"
+		macos="com.playrix.homescapes-mac"
+		macosApp="1292510839"
+		google="com.playrix.homescapes"
+		amazon="com.playrix.homescapes.amazon"
+		uwp="PLRWorldwideSales.Homescapes_1feq88045d2v2" />
+	<app id="fishdom"
+		ios="fb1409668969245905://something"
+		iosApp="664575829"
+		macos="com.playrix.fishdom-freeplay-mac"
+		macosApp="1046482500"
+		google="com.playrix.fishdomdd.gplay"
+		amazon="com.playrix.fishdomdd.kindle"
+		uwp="PLRWorldwideSales.FishdomPlayrix_1feq88045d2v2" />
+	<app id="township"
+		ios="fb226681500790782://something"
+		iosApp="638689075"
+		macos="com.playrix.township-mac"
+		macosApp="781424368"
+		google="com.playrix.township"
+		amazon="com.playrix.township.amazon"
+		uwp="PLRWorldwideSales.Township_1feq88045d2v2" />
+	<app id="gardenscapes"
+		ios="fb449189338613791://something"
+		iosApp="1105855019"
+		macos="com.playrix.gardenscapes-m3-mac"
+		macosApp="1193564816"
+		google="com.playrix.gardenscapes"
+		amazon="com.playrix.gardenscapes.amazon"
+		uwp="PLRWorldwideSales.Gardenscapes-NewAcres_1feq88045d2v2" />
+	<app id="wildscapes"
+		ios="fb217768748575794://something"
+		iosApp="1199882006"
+		macos="com.playrix.wildscapes-mac"
+		macosApp="1471337280"
+		google="com.playrix.zoo_m3.gplay"
+		amazon="com.playrix.zoo_m3.amazon"
+		uwp="" />
+	<app id="manor-matters"
+		ios="fb2412987285379176://something"
+		iosApp="1455953893"
+		macos="com.playrix.manor-matters-mac"
+		macosApp=""
+		google="com.playrix.manormatters"
+		amazon="com.playrix.manormatters.amazon"
+		uwp="" />
+</InstalledApps>
+

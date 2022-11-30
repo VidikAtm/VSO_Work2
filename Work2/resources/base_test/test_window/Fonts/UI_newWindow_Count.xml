@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<asset assetType="fontStyle" color="#FEEB16FF" fontName="Poetsen One" fontName..editor..ref="assetType@FontFile; raw@true" size="42.0">
+	<!--vso: 3-->
+	<effects effectString="{&quot;anchors&quot;:2,&quot;ratios&quot;:[0,1],&quot;colors&quot;:[4281139199,4278508541],&quot;type&quot;:&quot;gradient&quot;}" inspectorEffectString..editor="{&quot;anchors&quot;:2,&quot;ratios&quot;:[1,0],&quot;colors&quot;:[4278508541,4281139199],&quot;type&quot;:&quot;gradient&quot;}" />
+	<effects effectString="{&quot;blurX&quot;:0,&quot;blurY&quot;:0,&quot;offset&quot;:2,&quot;angle&quot;:270.0,&quot;strength&quot;:2.0,&quot;inner&quot;:true,&quot;color&quot;:4286572799,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" inspectorEffectString..editor="{&quot;blurX&quot;:0,&quot;blurY&quot;:0,&quot;offset&quot;:2,&quot;angle&quot;:270.0,&quot;strength&quot;:2.0,&quot;inner&quot;:true,&quot;color&quot;:4286572799,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" />
+	<effects effectString="{&quot;size&quot;:2.0,&quot;offset&quot;:2,&quot;angle&quot;:90.0,&quot;power&quot;:0.75,&quot;inner&quot;:false,&quot;color&quot;:4279716014,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;smooth_shadow&quot;}" inspectorEffectString..editor="{&quot;size&quot;:2.0,&quot;offset&quot;:2,&quot;angle&quot;:90.0,&quot;power&quot;:0.75,&quot;inner&quot;:false,&quot;color&quot;:4279716014,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;smooth_shadow&quot;}" />
+</asset>

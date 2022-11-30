@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<texts lang="fr">
+	<p id="VSO_SigninWindowTitle">Sauvegarder</p>
+	<p id="VSO_SigninWindowText">Connectez-vous pour sauvegarder votre progression.</p>
+
+	<p id="VSO_SigninFBConnectedBtn">Déconnexion</p>
+	<p id="VSO_SigninFBBtn">Connexion avec Facebook</p>
+
+	<p id="VSO_SigninAppleConnectedBtn">Déconnexion</p>
+	<p id="VSO_SigninAppleBtn">Connexion avec Apple</p>
+</texts>

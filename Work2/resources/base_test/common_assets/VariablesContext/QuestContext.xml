@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<asset assetType="questContext">
+	<!--vso: 1-->
+	<context />
+	<triggers..editor _v_="FirstTrigger" />
+	<triggers..editor _v_="SecondTrigger" />
+	<triggers..editor _v_="StartTutorial" />
+	<triggers..editor _v_="TestSceneLoaded" />
+	<triggers..editor _v_="TestSceneUnloaded" />
+	<triggers..editor _v_="TestTrigger" />
+	<triggers..editor _v_="TutorialWindowLoaded" />
+</asset>

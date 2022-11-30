@@ -1,0 +1,4 @@
+<Constants>
+    <constant name="BuildVariant" value="development" />
+	<constant name="SharedVarsFile" value="SharedVars.xml" />
+</Constants>

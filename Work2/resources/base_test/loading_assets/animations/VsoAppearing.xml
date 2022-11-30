@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip" duration="1.7" playMode="PingPong">
+	<!--vso: 8-->
+	<track type="float">
+		<ptr binding="1R@shaderConstantAdapter:float" name="1R@shaderConstantAdapter:float">
+			<param>
+				<key fixedGrad="true" leftCurveMode="Linear" rightCurveMode="Linear">
+					<rgrad lower="2.988" upper="2.988" />
+					<value lower="-0.05" upper="-0.05" />
+				</key>
+				<key fixedGrad="true" leftCurveMode="Linear" time="0.62584">
+					<lgrad lower="2.988" upper="2.988" />
+					<value lower="1.05" upper="1.05" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.7">
+					<value lower="1.05" upper="1.05" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+	<track type="float">
+		<ptr binding="1G@shaderConstantAdapter:float" name="1G@shaderConstantAdapter:float">
+			<param>
+				<key fixedGrad="true" imaginary="true">
+					<value lower="-0.05" upper="-0.05" />
+				</key>
+				<key fixedGrad="true" leftCurveMode="Linear" rightCurveMode="Linear" time="0.54964">
+					<rgrad lower="5.181" upper="5.181" />
+					<value lower="-0.05" upper="-0.05" />
+				</key>
+				<key fixedGrad="true" leftCurveMode="Linear" time="0.91057">
+					<lgrad lower="5.181" upper="5.181" />
+					<value lower="1.05" upper="1.05" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.7">
+					<value lower="1.05" upper="1.05" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+	<track type="float">
+		<ptr binding="1B@shaderConstantAdapter:float" name="1B@shaderConstantAdapter:float">
+			<param>
+				<key fixedGrad="true" imaginary="true" leftCurveMode="Linear">
+					<value lower="-0.05" upper="-0.05" />
+				</key>
+				<key fixedGrad="true" leftCurveMode="Linear" rightCurveMode="Linear" time="0.41314">
+					<rgrad lower="3.084" upper="3.084" />
+					<value lower="-0.05" upper="-0.05" />
+				</key>
+				<key fixedGrad="true" leftCurveMode="Linear" time="1.01944">
+					<lgrad lower="3.084" upper="3.084" />
+					<value lower="1.05" upper="1.05" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.7">
+					<value lower="1.05" upper="1.05" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+	<track type="float">
+		<ptr binding="2R@shaderConstantAdapter:float" name="2R@shaderConstantAdapter:float">
+			<param>
+				<key fixedGrad="true" imaginary="true">
+					<value lower="-0.05" upper="-0.05" />
+				</key>
+				<key fixedGrad="true" leftCurveMode="Linear" rightCurveMode="Linear" time="1.45686">
+					<rgrad lower="1.571" upper="1.571" />
+					<value lower="-0.05" upper="-0.05" />
+				</key>
+				<key fixedGrad="true" leftCurveMode="Linear" time="1.7">
+					<lgrad lower="1.571" upper="1.571" />
+					<value lower="1.05" upper="1.05" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+	<track type="float">
+		<ptr binding="2G@shaderConstantAdapter:float" name="2G@shaderConstantAdapter:float">
+			<param>
+				<key fixedGrad="true" imaginary="true">
+					<value lower="-0.05" upper="-0.05" />
+				</key>
+				<key fixedGrad="true" leftCurveMode="Linear" rightCurveMode="Linear" time="0.94044">
+					<rgrad lower="1.782" upper="1.782" />
+					<value lower="-0.05" upper="-0.05" />
+				</key>
+				<key fixedGrad="true" leftCurveMode="Linear" rightCurveMode="Linear" time="1.1951">
+					<lgrad lower="1.782" upper="1.782" />
+					<rgrad lower="4.575" upper="4.575" />
+					<value lower="0.217" upper="0.217" />
+				</key>
+				<key fixedGrad="true" leftCurveMode="Linear" time="1.5046">
+					<lgrad lower="4.575" upper="4.575" />
+					<value lower="1.05" upper="1.05" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.7">
+					<value lower="1.05" upper="1.05" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+</asset>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<meta>
+	<common>
+		<group local="true" value="Start" />
+		<library value="main" />
+	</common>
+	<textures>
+		<addToDynamicAtlas local="true" value="false" />
+		<addressMode local="true" value="Repeat" />
+		<pixelType local="true" value="8888" />
+		<textureType local="true" value="Texture2D" />
+	</textures>
+</meta>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip" duration="0.166" playMode="PlayOnce">
+	<!--vso: 4-->
+	<track additive="false" binding=":scale2d" name=":scale2d" resetToDefault="false" type="fPoint">
+		<x offset="1" similar="false">
+			<key fixedGrad="true" lgrad.lower="0" lgrad.upper="0" rgrad.lower="0.591" rgrad.upper="0.591" time="0" value.lower="-0.1" value.upper="-0.1" />
+			<key fixedGrad="true" lgrad.lower="0" lgrad.upper="0" rgrad.lower="0" rgrad.upper="0" time="0.545" value.lower="0.04" value.upper="0.04" />
+			<key fixedGrad="false" lgrad.lower="0" lgrad.upper="0" rgrad.lower="0" rgrad.upper="0" time="1" value.lower="-7.451e-09" value.upper="-7.451e-09" />
+		</x>
+		<y offset="1" similar="false">
+			<key fixedGrad="true" lgrad.lower="0" lgrad.upper="0" rgrad.lower="0.591" rgrad.upper="0.591" time="0" value.lower="-0.1" value.upper="-0.1" />
+			<key fixedGrad="true" lgrad.lower="0" lgrad.upper="0" rgrad.lower="0" rgrad.upper="0" time="0.545" value.lower="0.04" value.upper="0.04" />
+			<key fixedGrad="false" lgrad.lower="0" lgrad.upper="0" rgrad.lower="0" rgrad.upper="0" time="1" value.lower="0" value.upper="0" />
+		</y>
+	</track>
+</asset>

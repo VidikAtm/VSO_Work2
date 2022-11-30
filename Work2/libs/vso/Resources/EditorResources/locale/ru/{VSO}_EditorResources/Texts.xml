@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<texts lang="ru">
+	<p id="OK">OK</p>
+	<p id="Cancel">Отмена</p>
+	<p id="PlusMinus">±</p>
+
+	<p id="SplineOffset">смещение</p>
+	<p id="SplineSimilar">Подобие</p>
+	<p id="SplineTime">время</p>
+	<p id="SplineValue">значение</p>
+	<p id="SplineUpperValue">верхнее значение</p>
+	<p id="SplineLowerValue">нижнее значение</p>
+	<p id="SplineLeftInclines">левые наклоны</p>
+	<p id="SplineUpperLeftIncline">верхний левый наклон</p>
+	<p id="SplineLowerLeftIncline">нижний левый наклон</p>
+	<p id="SplineRightInclines">правые наклоны</p>
+	<p id="SplineUpperRightIncline">верхний правый наклон</p>
+	<p id="SplineLowerRightIncline">нижний правый наклон</p>
+	<p id="SplineCurveMode">тип наклонов</p>
+	<p id="SplineCurveModeFree">свободный</p>
+	<p id="SplineCurveModeLinear">линейный</p>
+	<p id="SplineReset">Сбросить сплайн</p>
+	<p id="SplineVerticalInvert">Инвертировать ключи по вертикали</p>
+	<p id="SplineHorizontalInvert">Инвертировать ключи по горизонтали</p>
+	<p id="SplineMatch">Спрямление</p>
+	<p id="SplineGradientMode">Показывать наклоны</p>
+	<p id="SplineDefaultSelectionMode">Обычное выделение</p>
+	<p id="SplineInteractiveSelectionMode">Интерактивное выделение</p>
+	<p id="SplineSymmetricalMode">Симметричный режим</p>
+
+	<p id="ColorChooseDialogTitle">Выбор цвета</p>
+	
+	<p id="VSO_CloseApp">Вы действительно хотите закрыть приложение?</p>
+	<p id="VSO_ButtonYes">Да</p>
+	<p id="VSO_ButtonNo">Нет</p>
+</texts>

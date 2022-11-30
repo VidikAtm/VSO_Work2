@@ -1,0 +1,37 @@
+<settings>
+	<library name="common_assets" path="common_assets" load="true"/>
+	<library name="loading_assets" path="loading_assets" load="false" />
+	<library name="test_window" path="test_window" load="true"  default="true"/>
+		<library name="sample_assets" path="sample_assets" load="true">
+		<require library="test_window" />
+	</library>
+
+	<renderTargets rtAtlasMaxSize="2048" rtAtlasSurfaceRatio="1.0" atlasLifetime="1.0" rtAtlasPadding="2" maxAtlases="10"  recreateTargetsAtContextLoss="true"/>
+	<resources policy="Sync"/>
+	<saveSettings dontSaveByDefault="true"/>
+	
+	<dynamicAtlas enabled="false" width="8192" height="8192"/>
+
+	<vsoResources copyToPath="../vso_base" vsoPath="../../libs/vso" />
+
+	<editors autoSelectRoot="false"
+			settingsFileSystem="documents"
+			settingsPath="EditorSettings"
+			userSettingsFileSystem="documents"
+			userSettingsPath="UserEditorSettings"
+			profilerEnabled="true"
+			temporaryDirectoryInDocuments="false"
+			projectRootPath="../../"
+			autoBackup="false"
+			/>
+
+	<assets loadSeparatedAssets="true" sortedXmlAssets="true"/>
+	<migration enabled="true" changeVersion="true" writeFiles="true"/>
+
+	<gameLib>
+	</gameLib>
+
+	<scheme name="TestProject" generateVso="false"/>
+
+	<helpLinks path="HelpLinks.xml" />
+</settings>

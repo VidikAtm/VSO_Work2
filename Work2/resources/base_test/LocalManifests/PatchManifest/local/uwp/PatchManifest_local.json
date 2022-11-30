@@ -1,0 +1,24 @@
+{
+    "packs": [
+        {
+            "deploy_policy": "cold",
+            "download_policy": "optional",
+            "groups": [],
+            "mount_on_startup": false,
+            "pack_id": "ColdPatch",
+            "parts": [],
+            "status": "enabled"
+        },
+        {
+            "deploy_policy": "smart",
+            "download_policy": "optional",
+            "groups": [
+                "hotfix"
+            ],
+            "mount_on_startup": false,
+            "pack_id": "HotPatch",
+            "parts": [],
+            "status": "enabled"
+        }
+    ]
+}

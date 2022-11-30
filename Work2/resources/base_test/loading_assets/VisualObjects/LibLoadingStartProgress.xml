@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<asset assetType="sceneObject">
+	<!--fixes: 3-->
+	<!--physics: 1-->
+	<!--vso: 40-->
+	<root name="root">
+		<behaviours type="screenBoard">
+			<ptr isAutoUpdatable="true">
+				<uid entityId="3094777585" />
+			</ptr>
+		</behaviours>
+		<behaviours type="input">
+			<ptr>
+				<uid entityId="2796829199" />
+			</ptr>
+		</behaviours>
+		<behaviours type="layout">
+			<ptr>
+				<uid entityId="2954601107" />
+			</ptr>
+		</behaviours>
+		<behaviours type="loadingScreenWindow">
+			<ptr>
+				<uid entityId="2612087407" />
+			</ptr>
+		</behaviours>
+		<children name="BlackFade">
+			<component type="blackFade">
+				<ptr color="#000000FF">
+					<uid entityId="1355643422" />
+				</ptr>
+			</component>
+			<transform />
+			<uid entityId="838828892" />
+		</children>
+		<children name="vso">
+			<behaviours type="anchoredElement">
+				<ptr>
+					<anchorTarget path="3094777585" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-256.0" offset_2="512.0" />
+					<uid entityId="1240155529" />
+					<verticalAnchor nrp_1="0.5" offset_1="-256.0" offset_2="512.0" />
+				</ptr>
+			</behaviours>
+			<behaviours type="animation">
+				<ptr id="VsoAppearing" id..editor..ref="assetType@animationClip; raw@true" normalizeWeights="false">
+					<remoteNodeLocator />
+					<uid entityId="3609192727" />
+				</ptr>
+			</behaviours>
+			<children name="1R">
+				<behaviours type="shaderConstantAdapter">
+					<ptr constantName="u_progress_1r">
+						<component path="1464535364" />
+						<uid entityId="530643462" />
+					</ptr>
+				</behaviours>
+				<transform />
+				<uid entityId="2571047567" />
+			</children>
+			<children name="1G">
+				<behaviours type="shaderConstantAdapter">
+					<ptr constantName="u_progress_1g">
+						<component path="1464535364" />
+						<uid entityId="2187541716" />
+					</ptr>
+				</behaviours>
+				<transform />
+				<uid entityId="1189029680" />
+			</children>
+			<children name="1B">
+				<behaviours type="shaderConstantAdapter">
+					<ptr constantName="u_progress_1b">
+						<component path="1464535364" />
+						<uid entityId="4183858514" />
+					</ptr>
+				</behaviours>
+				<transform />
+				<uid entityId="520529657" />
+			</children>
+			<children name="2R">
+				<behaviours type="shaderConstantAdapter">
+					<ptr constantName="u_progress_2r">
+						<component path="1464535364" />
+						<uid entityId="1215209515" />
+					</ptr>
+				</behaviours>
+				<transform />
+				<uid entityId="1428102855" />
+			</children>
+			<children name="2G">
+				<behaviours type="shaderConstantAdapter">
+					<ptr constantName="u_progress_2g">
+						<component path="1464535364" />
+						<uid entityId="3264928457" />
+					</ptr>
+				</behaviours>
+				<transform />
+				<uid entityId="1600162116" />
+			</children>
+			<component type="image">
+				<ptr>
+					<material>
+						<asset blendEnabled="false" shaderId="VsoAnimation" shaderId..editor..ref="assetType@Shader; raw@true">
+							<blend />
+							<constants count="1" f1="-0.05" name="u_progress_1b" />
+							<constants count="1" f1="-0.05" name="u_progress_1g" />
+							<constants count="1" f1="-0.05" name="u_progress_1r" />
+							<constants count="1" f1="-0.05" name="u_progress_2g" />
+							<constants count="1" f1="-0.05" name="u_progress_2r" />
+							<constants count="1" f1="0.045" name="u_span" />
+							<texture1 id="vso_anim1" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+							<texture2 id="vso_anim2" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+						</asset>
+					</material>
+					<spriteOrTexture id="vso_sign" id..editor..ref="assetType@SpriteOrTexture; raw@true" />
+					<uid entityId="1464535364" />
+				</ptr>
+			</component>
+			<transform>
+				<position x="256.5" y="128.5" z="0.0" />
+			</transform>
+			<uid entityId="1545975882" />
+		</children>
+		<sorting type="priority">
+			<ptr>
+				<uid entityId="3716447471" />
+			</ptr>
+		</sorting>
+		<transform />
+		<uid entityId="3547395155" />
+	</root>
+</asset>

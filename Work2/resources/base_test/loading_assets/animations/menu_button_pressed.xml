@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip" duration="0.1">
+	<!--vso: 8-->
+	<track type="color">
+		<ptr binding="bg@anchorRect:colorToDrawFill" name="bg@anchorRect:colorToDrawFill">
+			<alpha>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key time="0.1">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</alpha>
+			<blue>
+				<key />
+				<key time="0.1">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</blue>
+			<green>
+				<key />
+				<key time="0.1" />
+			</green>
+			<red>
+				<key />
+				<key time="0.1" />
+			</red>
+		</ptr>
+	</track>
+	<track type="float">
+		<ptr additive="true" binding="bg/normal@anchorRect:alpha" name="bg/normal@anchorRect:alpha">
+			<param>
+				<key />
+				<key time="0.1">
+					<value lower="-1.0" upper="-1.0" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+	<track type="float">
+		<ptr additive="true" binding="bg/pressed@anchorRect:alpha" name="bg/pressed@anchorRect:alpha">
+			<param>
+				<key />
+				<key time="0.1">
+					<value lower="1.0" upper="1.0" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+	<track type="float">
+		<ptr additive="true" binding="bg/over@anchorRect:alpha" name="bg/over@anchorRect:alpha">
+			<param>
+				<key />
+				<key time="0.1">
+					<value lower="-1.0" upper="-1.0" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+</asset>

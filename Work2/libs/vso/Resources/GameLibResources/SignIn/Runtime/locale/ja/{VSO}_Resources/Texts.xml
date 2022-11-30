@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<texts lang="ja">
+	<p id="VSO_SigninWindowTitle">進行状況を保存</p>
+	<p id="VSO_SigninWindowText">サインインして進行状況を保存する</p>
+
+	<p id="VSO_SigninFBConnectedBtn">接続を切る</p>
+	<p id="VSO_SigninFBBtn">Facebookでサインイン</p>
+
+	<p id="VSO_SigninAppleConnectedBtn">接続を切る</p>
+	<p id="VSO_SigninAppleBtn">Appleでサインイン</p>
+</texts>

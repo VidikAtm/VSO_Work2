@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<asset assetType="stateGraph" defaultState="Normal">
+	<!--fixes: 3-->
+	<!--vso: 3-->
+	<states type="state">
+		<ptr looped="true" name="Normal">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_newWindow_Card_Normal" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<inspectorPosition x="192.0" y="64.0" />
+			<transitions targetStateName="Purchase" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr name="Purchase">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_newWindow_Card_Purchase" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<controllers type="iCSTrigger">
+				<ptr nodeRefId="Root" trigger="oneCardSend" />
+			</controllers>
+			<inspectorPosition x="192.0" y="192.0" />
+			<transitions crossFadeType="Relative" targetStateName="Buy" transitionInvervalBegin="1.0" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr name="Buy">
+			<controllers type="objectAnimationController">
+				<ptr animationId="UI_newWindow_Card_Buy" animationId..editor..ref="assetType@animationClip; raw@true" nodeRefId="Current" />
+			</controllers>
+			<inspectorPosition x="192.0" y="320.0" />
+		</ptr>
+	</states>
+</asset>

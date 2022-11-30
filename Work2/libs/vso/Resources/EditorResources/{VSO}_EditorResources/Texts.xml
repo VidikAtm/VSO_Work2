@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<texts lang="en">
+	<p id="OK">OK</p>
+	<p id="Cancel">Cancel</p>
+
+	<p id="PlusMinus">±</p>
+	
+	<p id="SplineOffset">offset</p>
+	<p id="SplineSimilar">Similarity</p>
+	<p id="SplineTime">time</p>
+	<p id="SplineValue">value</p>
+	<p id="SplineUpperValue">upper value</p>
+	<p id="SplineLowerValue">lower value</p>
+	<p id="SplineLeftInclines">left inclines</p>
+	<p id="SplineUpperLeftIncline">upper left incline</p>
+	<p id="SplineLowerLeftIncline">lower left incline</p>
+	<p id="SplineRightInclines">right inclines</p>
+	<p id="SplineUpperRightIncline">upper right incline</p>
+	<p id="SplineLowerRightIncline">lower right incline</p>
+	<p id="SplineCurveMode">inclines type</p>
+	<p id="SplineCurveModeFree">free</p>
+	<p id="SplineCurveModeLinear">linear</p>
+	<p id="SplineReset">Reset spline</p>
+	<p id="SplineVerticalInvert">Invert keys vertically</p>
+	<p id="SplineHorizontalInvert">Invert keys horizontally</p>
+	<p id="SplineMatch">Match</p>
+	<p id="SplineGradientMode">Show inclines</p>
+	<p id="SplineDefaultSelectionMode">Dafault selection</p>
+	<p id="SplineInteractiveSelectionMode">Interactive selection</p>
+	<p id="SplineSymmetricalMode">Symmetrical mode</p>
+
+	<p id="ColorChooseDialogTitle">Choose color</p>
+	
+	<p id="VSO_CloseApp">Are you sure you want to close application?</p>
+	<p id="VSO_ButtonYes">Yes</p>
+	<p id="VSO_ButtonNo">No</p>
+</texts>
+

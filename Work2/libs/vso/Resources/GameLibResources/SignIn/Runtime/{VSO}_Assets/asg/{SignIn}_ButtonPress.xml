@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<asset assetType="stateGraph" defaultState="regular">
+	<!--vso: 2-->
+	<states type="state">
+		<ptr name="hovered" looped="true">
+			<inspectorPosition x="319.94" y="192.886" />
+			<controllers type="objectAnimationController">
+				<ptr animationId="{SignIn}_Button_ASG_idle" />
+			</controllers>
+			<transitions targetStateName="regular" crossFadeDuration="0.1" crossFadeType="Relative" />
+			<transitions targetStateName="press" crossFadeDuration="0.1" crossFadeType="Relative" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr name="regular" looped="true">
+			<inspectorPosition x="320.127" y="64.011" />
+			<controllers type="objectAnimationController">
+				<ptr animationId="{SignIn}_Button_ASG_idle" />
+			</controllers>
+			<transitions targetStateName="hovered" crossFadeDuration="0.1" crossFadeType="Relative" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr name="pressed" looped="true">
+			<inspectorPosition x="318.467" y="432.703" />
+			<controllers type="objectAnimationController">
+				<ptr animationId="{SignIn}_Button_ASG_pressed" />
+			</controllers>
+			<transitions targetStateName="release" crossFadeDuration="0.1" crossFadeType="Relative" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr name="press">
+			<inspectorPosition x="544.632" y="320.406" />
+			<controllers type="objectAnimationController">
+				<ptr animationId="{SignIn}_Button_ASG_press" />
+			</controllers>
+			<transitions targetStateName="pressed" transitionInvervalBegin="0.9" crossFadeDuration="0.1" crossFadeType="Relative" />
+		</ptr>
+	</states>
+	<states type="state">
+		<ptr name="release">
+			<inspectorPosition x="95.829" y="320.406" />
+			<controllers type="objectAnimationController">
+				<ptr animationId="{SignIn}_Button_ASG_release" />
+			</controllers>
+			<transitions targetStateName="hovered" transitionInvervalBegin="0.9" crossFadeDuration="0.1" crossFadeType="Relative" />
+		</ptr>
+	</states>
+</asset>

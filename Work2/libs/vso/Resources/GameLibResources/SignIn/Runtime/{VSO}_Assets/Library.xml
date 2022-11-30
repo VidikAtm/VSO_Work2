@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<library>
+	<SOCollection editorPath="vso" path="vso" />
+	<AnimationCollection editorPath="animations" path="animations" />
+	<ASGCollection editorPath="asg" path="asg" />
+</library>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<assets>
+	<asset assetId="vso@normal" assetType="texturePackSettingsAsset">
+		<settings>
+			<config platform="ios" format="etc2_pvrtc" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="true" opaque="0" pot="true" strictSize="false" />
+			<config platform="android|win" format="etc2" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="true" opaque="0" pot="true" strictSize="false" />
+			<config platform="uwp|mac" format="bc7" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="false" opaque="0" pot="false" strictSize="false" />
+			<config platform="emscripten" format="dxt5" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="false" opaque="0" pot="true" strictSize="false" />
+		</settings>
+	</asset>
+	<asset assetId="vso@normal_nonretina" assetType="texturePackSettingsAsset">
+		<settings>
+			<config platform="ios" format="etc2_pvrtc" q="100" alpha_q="100" etz="false" pma="false" retina="false" downscale="false" toetc1="true" opaque="0" pot="true" strictSize="false" />
+			<config platform="android|win" format="etc2" q="100" alpha_q="100" etz="false" pma="false" retina="false" downscale="false" toetc1="true" opaque="0" pot="true" strictSize="false" />
+			<config platform="uwp|mac" format="bc7" q="100" alpha_q="100" etz="false" pma="false" retina="false" downscale="false" toetc1="false" opaque="0" pot="false" strictSize="false" />
+			<config platform="emscripten" format="dxt5" q="100" alpha_q="100" etz="false" pma="false" retina="false" downscale="false" toetc1="false" opaque="0" pot="true" strictSize="false" />
+		</settings>
+	</asset>
+	<asset assetId="vso@atlascube_normal" assetType="texturePackSettingsAsset">
+		<settings>
+			<config platform="ios" format="etc2_pvrtc" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="true" opaque="0" pot="false" strictSize="true" />
+			<config platform="android|win" format="etc2" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="true" opaque="0" pot="false" strictSize="true" />
+			<config platform="uwp|mac" format="bc7" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="false" opaque="0" pot="false" strictSize="true" />
+			<config platform="emscripten" format="dxt5" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="false" opaque="0" pot="false" strictSize="true" />
+		</settings>
+	</asset>
+	<asset assetId="vso@high" assetType="texturePackSettingsAsset">
+		<settings>
+			<config platform="ios|android|win" format="etc2etc2" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="false" opaque="0" pot="false" strictSize="false" />
+			<config platform="uwp|mac" format="bc7" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="false" opaque="0" pot="false" strictSize="false" />
+			<config platform="emscripten" format="dxt5" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="false" toetc1="false" opaque="0" pot="true" strictSize="false" />
+		</settings>
+	</asset>
+	<asset assetId="vso@high_downscale" assetType="texturePackSettingsAsset">
+		<settings>
+			<config platform="ios|android|win" format="etc2etc2" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="true" toetc1="false" opaque="0" pot="false" strictSize="false" />
+			<config platform="uwp|mac" format="bc7" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="true" toetc1="false" opaque="0" pot="false" strictSize="false" />
+			<config platform="emscripten" format="dxt5" q="100" alpha_q="100" etz="false" pma="false" retina="true" downscale="true" toetc1="false" opaque="0" pot="true" strictSize="false" />
+		</settings>
+	</asset>
+	<asset assetId="vso@high_nonretina" assetType="texturePackSettingsAsset">
+		<settings>
+			<config platform="ios|android|win" format="etc2etc2" q="100" alpha_q="100" etz="false" pma="false" retina="false" downscale="false" toetc1="false" opaque="0" pot="false" strictSize="false" />
+			<config platform="uwp|mac" format="bc7" q="100" alpha_q="100" etz="false" pma="false" retina="false" downscale="false" toetc1="false" opaque="0" pot="false" strictSize="false" />
+			<config platform="emscripten" format="dxt5" q="100" alpha_q="100" etz="false" pma="false" retina="false" downscale="false" toetc1="false" opaque="0" pot="true" strictSize="false" />
+		</settings>
+	</asset>
+</assets>

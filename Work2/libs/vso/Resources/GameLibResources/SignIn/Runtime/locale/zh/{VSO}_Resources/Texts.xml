@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<texts lang="zh">
+	<p id="VSO_SigninWindowTitle">保存进度</p>
+	<p id="VSO_SigninWindowText">登录以保存进度</p>
+
+	<p id="VSO_SigninFBConnectedBtn">断线</p>
+	<p id="VSO_SigninFBBtn">通过脸书登陆</p>
+
+	<p id="VSO_SigninAppleConnectedBtn">断线</p>
+	<p id="VSO_SigninAppleBtn">通过 Apple 登陆</p>
+</texts>

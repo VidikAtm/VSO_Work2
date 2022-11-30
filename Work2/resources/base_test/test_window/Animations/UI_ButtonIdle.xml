@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip" duration="0.1">
+	<!--vso: 8-->
+	<track type="fPoint">
+		<ptr binding=":scale2d" name=":scale2d">
+			<x offset="1.0">
+				<key />
+				<key time="0.1" />
+			</x>
+			<y offset="1.0">
+				<key />
+				<key time="0.1" />
+			</y>
+		</ptr>
+	</track>
+</asset>

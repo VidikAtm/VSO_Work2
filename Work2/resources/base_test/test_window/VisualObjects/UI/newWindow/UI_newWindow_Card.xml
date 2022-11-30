@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<asset assetType="sceneObject" changesEnabled="Enabled">
+	<!--fixes: 3-->
+	<!--physics: 1-->
+	<!--vso: 40-->
+	<root name="Card">
+		<behaviours type="simpleLayoutElement">
+			<ptr>
+				<horizontalSize minSize="276.0" prefferedSize="276.0" />
+				<uid entityId="3725950271" />
+				<verticalSize minSize="340.0" prefferedSize="340.0" />
+			</ptr>
+		</behaviours>
+		<behaviours type="animation">
+			<ptr startMode="Manual">
+				<remoteNodeLocator />
+				<uid entityId="2181106433" />
+			</ptr>
+		</behaviours>
+		<behaviours type="stateGraph">
+			<ptr>
+				<nodeReferences first="Root">
+					<second path="" />
+				</nodeReferences>
+				<stateGraph id="UI_newWindow_Card" id..editor..ref="assetType@stateGraph; raw@true" />
+				<uid entityId="1979176583" />
+			</ptr>
+		</behaviours>
+		<behaviours type="iCSController">
+			<ptr autoPlay="true">
+				<ics id="UI_newWindow_Card" id..editor..ref="assetType@interactiveCutScene" />
+				<uid entityId="843802641" />
+			</ptr>
+		</behaviours>
+		<children name="IconsMini" visibility="false">
+			<behaviours type="anchoredElement">
+				<ptr>
+					<anchorTarget path="3725950271" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-75.0" offset_2="150.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="131215850" />
+					<verticalAnchor nrp_1="0.5" offset_1="-55.0" offset_2="140.0" />
+				</ptr>
+			</behaviours>
+			<behaviours type="color">
+				<ptr>
+					<uid entityId="72546253" />
+				</ptr>
+			</behaviours>
+			<children name="Disco">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="131215850" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-56.5" offset_2="113.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="3237801272" />
+						<verticalAnchor nrp_1="0.5" offset_1="-49.5" offset_2="120.0" />
+					</ptr>
+				</behaviours>
+				<component type="image">
+					<ptr>
+						<spriteOrTexture id="UI_Ball" id..editor..ref="assetType@SpriteOrTexture; raw@true" />
+						<uid entityId="555108781" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="0.0" y="10.5" z="0.0" />
+				</transform>
+				<uid entityId="2944416063" />
+			</children>
+			<children name="Hamer" visibility="false">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="131215850" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-57.0" offset_2="114.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="3974843666" />
+						<verticalAnchor nrp_1="0.5" offset_1="-57.5" offset_2="120.0" />
+					</ptr>
+				</behaviours>
+				<component type="image">
+					<ptr>
+						<spriteOrTexture id="UI_Hammer" id..editor..ref="assetType@SpriteOrTexture; raw@true" />
+						<uid entityId="2497874996" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="0.0" y="2.5" z="0.0" />
+				</transform>
+				<uid entityId="250843174" />
+			</children>
+			<children name="Planes" visibility="false">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="131215850" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-56.5" offset_2="113.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="3481815942" />
+						<verticalAnchor nrp_1="0.5" offset_1="-57.5" offset_2="122.0" />
+					</ptr>
+				</behaviours>
+				<component type="image">
+					<ptr>
+						<spriteOrTexture id="UI_Planes" id..editor..ref="assetType@SpriteOrTexture; raw@true" />
+						<uid entityId="505263714" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="0.0" y="3.5" z="0.0" />
+				</transform>
+				<uid entityId="2644874197" />
+			</children>
+			<transform>
+				<position x="0.0" y="15.0" z="0.0" />
+				<scale x="0.9" y="0.9" z="1.0" />
+			</transform>
+			<uid entityId="1485773653" />
+		</children>
+		<children name="Icons">
+			<behaviours type="anchoredElement">
+				<ptr>
+					<anchorTarget path="3725950271" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-75.0" offset_2="150.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="3652183436" />
+					<verticalAnchor nrp_1="0.5" offset_1="-55.0" offset_2="140.0" />
+				</ptr>
+			</behaviours>
+			<behaviours type="color">
+				<ptr>
+					<uid entityId="3932588378" />
+				</ptr>
+			</behaviours>
+			<children name="Disco">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="3652183436" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-56.5" offset_2="113.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="1289406899" />
+						<verticalAnchor nrp_1="0.5" offset_1="-50.5" offset_2="120.0" />
+					</ptr>
+				</behaviours>
+				<component type="image">
+					<ptr>
+						<spriteOrTexture id="UI_Ball" id..editor..ref="assetType@SpriteOrTexture; raw@true" />
+						<uid entityId="1539472049" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="0.0" y="9.5" z="0.0" />
+				</transform>
+				<uid entityId="2396136592" />
+			</children>
+			<children name="Hamer" visibility="false">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="3652183436" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-48.0" offset_2="114.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="880334326" />
+						<verticalAnchor nrp_1="0.5" offset_1="-58.5" offset_2="120.0" />
+					</ptr>
+				</behaviours>
+				<component type="image">
+					<ptr>
+						<spriteOrTexture id="UI_Hammer" id..editor..ref="assetType@SpriteOrTexture; raw@true" />
+						<uid entityId="3809567013" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="9.0" y="1.5" z="0.0" />
+				</transform>
+				<uid entityId="22737045" />
+			</children>
+			<children name="Planes" visibility="false">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="3652183436" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-58.5" offset_2="113.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="2239340976" />
+						<verticalAnchor nrp_1="0.5" offset_1="-58.5" offset_2="122.0" />
+					</ptr>
+				</behaviours>
+				<component type="image">
+					<ptr>
+						<spriteOrTexture id="UI_Planes" id..editor..ref="assetType@SpriteOrTexture; raw@true" />
+						<uid entityId="2630356853" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="-2.0" y="2.5" z="0.0" />
+				</transform>
+				<uid entityId="2944930155" />
+			</children>
+			<transform>
+				<position x="0.0" y="15.0" z="0.0" />
+			</transform>
+			<uid entityId="229560073" />
+		</children>
+		<children name="Button">
+			<behaviours type="anchoredElement">
+				<ptr>
+					<anchorTarget path="3725950271" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-82.5" offset_2="171.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="897005675" />
+					<verticalAnchor offset_1="30.5" offset_2="62.0" />
+				</ptr>
+			</behaviours>
+			<behaviours type="animation">
+				<ptr startMode="Manual">
+					<remoteNodeLocator />
+					<uid entityId="2913258244" />
+				</ptr>
+			</behaviours>
+			<behaviours type="stateGraph">
+				<ptr>
+					<stateGraph id="UI_newWindow_ButtonCard" id..editor..ref="assetType@stateGraph; raw@true" />
+					<uid entityId="3600141742" />
+				</ptr>
+			</behaviours>
+			<behaviours type="button">
+				<ptr>
+					<uid entityId="2757534399" />
+				</ptr>
+			</behaviours>
+			<behaviours type="buttonStateGraph">
+				<ptr disabledStateName="Disabled" hoverStateName="" normalStateName="Idle" pressedStateName="Pressed">
+					<uid entityId="2755184156" />
+				</ptr>
+			</behaviours>
+			<behaviours type="color">
+				<ptr>
+					<uid entityId="4098121166" />
+				</ptr>
+			</behaviours>
+			<children name="Background">
+				<behaviours type="anchoredElement">
+					<ptr>
+						<anchorTarget path="897005675" />
+						<horizontalAnchor nrp_2="1.0" />
+						<uid entityId="3532944330" />
+						<verticalAnchor nrp_2="1.0" />
+					</ptr>
+				</behaviours>
+				<component type="image9Slice">
+					<ptr fitPolicy="Stretch" xSliceLeft="0.5" xSliceRight="0.5" ySliceLeft="0.5" ySliceRight="0.5">
+						<texture id="UI_Button" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+						<uid entityId="2685979033" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="-85.5" y="-31.0" z="0.0" />
+				</transform>
+				<uid entityId="1282397316" />
+			</children>
+			<children name="Text">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="897005675" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-54.0" offset_2="108.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="3318643167" />
+						<verticalAnchor nrp_1="0.5" offset_1="-15.0" offset_2="42.0" />
+					</ptr>
+				</behaviours>
+				<component type="label">
+					<ptr ignoreRaycastCheck="true" letterSpacing="2.0" sfs="true" text="Send" textOverflowPolicy="NoBreak">
+						<curve />
+						<fontStyle id="UI_newWindow_Btn" id..editor..ref="assetType@fontStyle; raw@true" />
+						<uid entityId="2202327585" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="0.0" y="6.0" z="0.0" />
+				</transform>
+				<uid entityId="3480525910" />
+			</children>
+			<transform>
+				<position x="3.0" y="61.5" z="0.0" />
+			</transform>
+			<uid entityId="3344246230" />
+		</children>
+		<children name="Title">
+			<behaviours type="anchoredElement">
+				<ptr autoAttachToParent="true">
+					<anchorTarget path="3725950271" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-106.5" offset_2="213.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="2917590545" />
+					<verticalAnchor nrp_1="1.0" offset_1="-48.0" offset_2="37.0" />
+				</ptr>
+			</behaviours>
+			<component type="label">
+				<ptr sfs="true" text="Shawn Andersson" textOverflowPolicy="NoBreak">
+					<curve />
+					<fontStyle id="UI_newWindow_Title" id..editor..ref="assetType@fontStyle; raw@true" />
+					<uid entityId="1775406249" />
+				</ptr>
+			</component>
+			<transform>
+				<position x="0.0" y="-29.5" z="0.0" />
+			</transform>
+			<uid entityId="1741022691" />
+		</children>
+		<children name="LvlText">
+			<behaviours type="anchoredElement">
+				<ptr autoAttachToParent="true">
+					<anchorTarget path="3725950271" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-41.5" offset_2="83.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="2003611172" />
+					<verticalAnchor nrp_1="1.0" offset_1="-70.0" offset_2="27.0" />
+				</ptr>
+			</behaviours>
+			<component type="label">
+				<ptr sfs="true" text="57 level" textOverflowPolicy="NoBreak">
+					<curve />
+					<fontStyle id="UI_newWindow_Lvl" id..editor..ref="assetType@fontStyle; raw@true" />
+					<uid entityId="3160745380" />
+				</ptr>
+			</component>
+			<transform>
+				<position x="0.0" y="-56.5" z="0.0" />
+			</transform>
+			<uid entityId="4061631675" />
+		</children>
+		<children name="CountText">
+			<behaviours type="anchoredElement">
+				<ptr autoAttachToParent="true">
+					<anchorTarget path="3725950271" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-3.0" offset_2="85.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="662529455" />
+					<verticalAnchor nrp_1="0.5" offset_1="-59.5" offset_2="53.0" />
+				</ptr>
+			</behaviours>
+			<behaviours type="color">
+				<ptr>
+					<uid entityId="548607647" />
+				</ptr>
+			</behaviours>
+			<component type="label">
+				<ptr align="RightMiddle" sfs="true" text="x55" textOverflowPolicy="NoBreak">
+					<curve />
+					<fontStyle id="UI_newWindow_Count" id..editor..ref="assetType@fontStyle; raw@true" />
+					<uid entityId="899831847" />
+				</ptr>
+			</component>
+			<transform>
+				<position x="39.5" y="-33.0" z="0.0" />
+			</transform>
+			<uid entityId="1778301540" />
+		</children>
+		<component type="imageTiled">
+			<ptr fitPolicy="Stretch" horizontalMirror="true">
+				<texture id="UI_Card" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+				<uid entityId="1941014729" />
+			</ptr>
+		</component>
+		<transform />
+		<uid entityId="720083715" />
+	</root>
+</asset>

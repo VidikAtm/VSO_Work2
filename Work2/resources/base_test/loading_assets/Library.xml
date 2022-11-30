@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<library>
+	<SOCollection editorPath="VisualObjects" path="ContentLibrary.bin" loadMode="OnDemand" cacheMode="None"/>
+	<AnimationCollection path="animations" loadMode="OnDemand" cacheMode="None"/>
+	<Resources path="ResourceAssets.xml" engineResources="Resources.xml"/>
+</library>

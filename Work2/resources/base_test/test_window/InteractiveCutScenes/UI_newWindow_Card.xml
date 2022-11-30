@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<asset assetType="interactiveCutScene">
+	<!--fixes: 3-->
+	<!--vso: 20-->
+	<actionLinks type="actionLink">
+		<ptr destination="WaitCompositeAction" source="Start" />
+	</actionLinks>
+	<actionLinks type="actionLink">
+		<ptr destination="ASGAction 2" source="WaitCompositeAction" />
+	</actionLinks>
+	<actionLinks type="actionLink">
+		<ptr destination="Exit" source="ASGAction 2" />
+	</actionLinks>
+	<actionNodes type="startData">
+		<ptr id="Start">
+			<graphPosition x="-256.0" y="160.0" />
+		</ptr>
+	</actionNodes>
+	<actionNodes type="waitCompositeActionData">
+		<ptr id="WaitCompositeAction">
+			<graphPosition x="64.0" y="160.0" />
+			<waitActions type="waitVisualSignalData">
+				<ptr actor="0" signalName="click" signalProviderIdx="1" signalType="Release" />
+			</waitActions>
+			<waitActions type="waitVisualSignalData">
+				<ptr actor="1" signalName="triggers" signalProviderIdx="0" signalType="Button_Disable" />
+			</waitActions>
+		</ptr>
+	</actionNodes>
+	<actionNodes type="aSGActionData">
+		<ptr id="ASGAction 2">
+			<graphPosition x="384.0" y="160.0" />
+			<state type="stringConstValue">
+				<ptr value="Purchase" />
+			</state>
+		</ptr>
+	</actionNodes>
+	<actionNodes type="exitData">
+		<ptr id="Exit">
+			<graphPosition x="704.0" y="160.0" />
+		</ptr>
+	</actionNodes>
+	<actors type="nodeActor">
+		<ptr binding="Button" identifier="0" />
+	</actors>
+	<actors type="locatorActor">
+		<ptr identifier="1" locatorName="newWindow_Main" />
+	</actors>
+	<triggers _v_="Button_Disable" />
+	<variablesContext />
+</asset>

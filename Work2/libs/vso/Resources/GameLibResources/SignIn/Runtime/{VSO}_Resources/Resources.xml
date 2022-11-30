@@ -1,0 +1,17 @@
+<Resources>
+	<Sheets alphaLimit="100" group="{GameLib}SignIn">
+		<sheet path="{GameLib}SignIn/SignIn.webp" xml="{GameLib}SignIn/SignIn.xml" />
+	</Sheets>
+	
+	<Textures basePath="SignIn" group="{GameLib}SignIn">
+		<texture id="{GameLib}SIn_apple_btn_bg" path="apple_btn_bg.png"/>
+		<texture id="{GameLib}SIn_apple_icon" path="apple_icon.png"/>
+		<texture id="{GameLib}SIn_bg_top" path="bg_top.png"/>
+		<texture id="{GameLib}SIn_bg_bot" path="bg_bot.png"/>
+		<texture id="{GameLib}SIn_bg_mid" path="bg_mid.png"/>
+		<texture id="{GameLib}SIn_bg_line" path="bg_line.png"/>
+		<texture id="{GameLib}SIn_close_icon" path="close_icon.png"/>
+		<texture id="{GameLib}SIn_fb_btn_bg" path="fb_btn_bg.png"/>
+		<texture id="{GameLib}SIn_fb_icon" path="fb_icon.png"/>
+	</Textures>
+</Resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip" duration="0.15" playMode="PlayOnce">
+	<!--vso: 4-->
+	<track type="float" name="@blackFade:alpha" binding="@blackFade:alpha" resetToDefault="false" additive="false">
+		<param similar="false" offset="0.0">
+			<key time="0.0" rgrad.lower="0.784" rgrad.upper="0.784" fixedGrad="true" />
+			<key time="1.0" value.lower="0.627" value.upper="0.627" lgrad.lower="0.784" lgrad.upper="0.784" fixedGrad="true" />
+		</param>
+	</track>
+</asset>

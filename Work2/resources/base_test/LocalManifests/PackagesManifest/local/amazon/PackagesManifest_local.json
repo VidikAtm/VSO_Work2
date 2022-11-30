@@ -1,0 +1,24 @@
+{
+    "packs": [
+        {
+            "deploy_policy": "smart",
+            "download_policy": "none",
+            "groups": [],
+            "mount_on_startup": false,
+            "pack_id": "AssetDefence",
+            "parts": [],
+            "status": "enabled"
+        },
+        {
+            "deploy_policy": "smart",
+            "download_policy": "none",
+            "groups": [
+                "Playable"
+            ],
+            "mount_on_startup": false,
+            "pack_id": "Playables",
+            "parts": [],
+            "status": "enabled"
+        }
+    ]
+}

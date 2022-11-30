@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<assets>
+	<asset assetId="1Yf1RevbtAnb" assetType="textureAsset" path="test_window/Textures/newWindow/UI_BackGround.png">
+		<!--vso: 2-->
+		<id value="UI_BackGround" />
+	</asset>
+	<asset assetId="3Yf3S8Jaztro" assetType="textureAsset" path="test_window/Textures/newWindow/UI_BackgroundButtonMain.png">
+		<!--vso: 2-->
+		<id value="UI_BackgroundButtonMain" />
+	</asset>
+	<asset assetId="4Yf59IpxOEXq" assetType="textureAsset" path="test_window/Textures/newWindow/UI_Ball.png">
+		<!--vso: 2-->
+		<id value="UI_Ball" />
+	</asset>
+	<asset assetId="4Zs07phXSkOC" assetType="textureAsset" path="sample_assets/Textures/UI_Sample_Title.png">
+		<!--vso: 2-->
+		<group value="test_window" />
+		<id value="UI_Sample_Title" />
+		<textureSettings>
+			<textureType local="true" value="Texture2D" />
+		</textureSettings>
+	</asset>
+	<asset assetId="4Zs1yBcNkvzJ" assetType="textureAsset" path="sample_assets/Textures/UI_Sample_CloseButton.png">
+		<!--vso: 2-->
+		<group value="test_window" />
+		<id value="UI_Sample_CloseButton" />
+	</asset>
+	<asset assetId="4Zs2bgmw80eA" assetType="textureAsset" path="sample_assets/Textures/UI_Sample_GreenButton.png">
+		<!--vso: 2-->
+		<group value="test_window" />
+		<id value="UI_Sample_GreenButton" />
+		<textureSettings>
+			<textureType local="true" value="Texture2D" />
+		</textureSettings>
+	</asset>
+	<asset assetId="5Yf74wAZarzf" assetType="textureAsset" path="test_window/Textures/newWindow/UI_Blick.png">
+		<!--vso: 2-->
+		<id value="UI_Blick" />
+	</asset>
+	<asset assetId="5Zs3cZ8fYjz8" assetType="textureAsset" path="sample_assets/Textures/UI_Sample_ItemPanel.png">
+		<!--vso: 2-->
+		<group value="test_window" />
+		<id value="UI_Sample_ItemPanel" />
+	</asset>
+	<asset assetId="5Zs4UgJNFEnR" assetType="textureAsset" path="sample_assets/Textures/UI_Sample_Panel.png">
+		<!--vso: 2-->
+		<group value="test_window" />
+		<id value="UI_Sample_Panel" />
+		<textureSettings>
+			<textureType local="true" value="Texture2D" />
+		</textureSettings>
+	</asset>
+	<asset assetId="6Yf9xnFFL3yk" assetType="textureAsset" path="test_window/Textures/newWindow/UI_Button.png">
+		<!--vso: 2-->
+		<id value="UI_Button" />
+	</asset>
+	<asset assetId="6YfBnLkLzI47" assetType="textureAsset" path="test_window/Textures/newWindow/UI_Card.png">
+		<!--vso: 2-->
+		<id value="UI_Card" />
+	</asset>
+	<asset assetId="7YfD6gV2TycC" assetType="textureAsset" path="test_window/Textures/newWindow/UI_FrontPanel.png">
+		<!--vso: 2-->
+		<id value="UI_FrontPanel" />
+	</asset>
+	<asset assetId="8YfFxBziwWas" assetType="textureAsset" path="test_window/Textures/newWindow/UI_FrontShape.png">
+		<!--vso: 2-->
+		<id value="UI_FrontShape" />
+	</asset>
+	<asset assetId="9YfHv5EpBknC" assetType="textureAsset" path="test_window/Textures/newWindow/UI_GreenLine.png">
+		<!--vso: 2-->
+		<id value="UI_GreenLine" />
+	</asset>
+	<asset assetId="AYfJ7jIUgBYc" assetType="textureAsset" path="test_window/Textures/newWindow/UI_Hammer.png">
+		<!--vso: 2-->
+		<id value="UI_Hammer" />
+	</asset>
+	<asset assetId="BYfLXkiZz79m" assetType="textureAsset" path="test_window/Textures/newWindow/UI_Header.png">
+		<!--vso: 2-->
+		<id value="UI_Header" />
+	</asset>
+	<asset assetId="DYfPazqpZuac" assetType="textureAsset" path="test_window/Textures/newWindow/UI_MainButton.png">
+		<!--vso: 2-->
+		<id value="UI_MainButton" />
+	</asset>
+	<asset assetId="DYfRrPWHXT2a" assetType="textureAsset" path="test_window/Textures/newWindow/UI_Planes.png">
+		<!--vso: 2-->
+		<id value="UI_Planes" />
+	</asset>
+	<asset assetId="jdfc9AEVimx5" assetType="textureAsset" path="test_window/Textures/newWindow/UI_Quit.png">
+		<!--vso: 2-->
+		<id value="UI_Quit" />
+	</asset>
+	<asset assetId="kJiiBzM0XlEH" assetType="textureAsset" path="test_window/Textures/newWindow/UI_ProgressBarFrame.png">
+		<!--vso: 2-->
+		<id value="UI_ProgressBarFrame" />
+	</asset>
+	<asset assetId="v6ignPpAXuYS" assetType="textureAsset" path="test_window/Textures/newWindow/UI_ProgressBarSape.png">
+		<!--vso: 2-->
+		<id value="UI_ProgressBarSape" />
+	</asset>
+</assets>

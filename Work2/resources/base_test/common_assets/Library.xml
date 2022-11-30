@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<library>
+	<Scenes editorPath="Scenes" path="Scenes.bin" />
+	<SOCollection editorPath="VisualObjects" path="ContentLibrary.bin" />
+	<AnimationCollection editorPath="animations" path="AnimationsLibrary.bin" />
+	<VariablesContext editorPath="VariablesContext" path="VariablesContext.bin" />
+	<CdnServer path="CdnServer.xml"/>
+	<ScenesMetaInfo editorPath="UI" path="scenesLibrary.bin" />
+	<SceneTagCollection editorPath="sceneTags.xml" path="sceneTags.bin" />
+	<Resources path="ResourceAssets.xml" engineResources="Resources.xml"/>
+</library>

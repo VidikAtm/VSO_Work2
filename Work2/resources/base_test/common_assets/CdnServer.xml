@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<assets>
+	<asset assetId="ent" assetType="cdnServerData">
+		<!--vso: 1-->
+		<primaryCdn baseUrl="https://test-perfect-project-test-01-cdn.playrix.com" rootFolder="test-perfect-project-test-01" />
+	</asset>
+	<asset assetId="prod" assetType="cdnServerData">
+		<!--vso: 1-->
+		<primaryCdn baseUrl="https://perfect-project-test-cdn.playrix.com" rootFolder="perfect-project-test" />
+		<secondaryCdn baseUrl="https://perfect-project-test-cdn-alt.playrix.com" rootFolder="perfect-project-test" />
+	</asset>
+</assets>

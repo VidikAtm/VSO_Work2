@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<asset assetType="sceneObject">
+	<!--fixes: 3-->
+	<!--physics: 1-->
+	<!--vso: 40-->
+	<root name="Root">
+		<behaviours type="screenBoard">
+			<ptr fitPolicy="NoBorder" isAutoUpdatable="true">
+				<uid entityId="3942269474" />
+			</ptr>
+		</behaviours>
+		<behaviours type="input">
+			<ptr>
+				<uid entityId="2138118298" />
+			</ptr>
+		</behaviours>
+		<behaviours type="layout">
+			<ptr>
+				<uid entityId="3767204419" />
+			</ptr>
+		</behaviours>
+		<children name="Button">
+			<behaviours type="animation">
+				<ptr id="menu_button_normal" id..editor..ref="assetType@animationClip; raw@true" mode="PlayOnce" normalizeWeights="false" resetToDefault="None">
+					<remoteNodeLocator />
+					<uid entityId="3705382368" />
+				</ptr>
+			</behaviours>
+			<behaviours type="buttonStateAnimation">
+				<ptr hover2Normal="menu_button_normal" hover2Normal..editor..ref="assetType@animationClip; raw@true" hover2Pressed="menu_button_pressed" hover2Pressed..editor..ref="assetType@animationClip; raw@true" normal2Hover="menu_button_over" normal2Hover..editor..ref="assetType@animationClip; raw@true" normal2Pressed="menu_button_pressed" normal2Pressed..editor..ref="assetType@animationClip; raw@true" pressed2Hover="menu_button_over" pressed2Hover..editor..ref="assetType@animationClip; raw@true" pressed2Normal="menu_button_normal" pressed2Normal..editor..ref="assetType@animationClip; raw@true">
+					<uid entityId="1890574143" />
+				</ptr>
+			</behaviours>
+			<behaviours type="button">
+				<ptr>
+					<uid entityId="1611263802" />
+				</ptr>
+			</behaviours>
+			<behaviours type="tutorialObject">
+				<ptr dontRegisterInTutorial="true" lockEnabled="false">
+					<uid entityId="1861835371" />
+				</ptr>
+			</behaviours>
+			<behaviours type="anchoredElement">
+				<ptr>
+					<anchorTarget path="3942269474" />
+					<horizontalAnchor nrp_1="1.0" offset_1="-80.0" offset_2="80.0" />
+					<normalizedPivot x="1.0" y="1.0" />
+					<uid entityId="2911878342" />
+					<verticalAnchor nrp_1="1.0" offset_1="-40.0" offset_2="40.0" />
+				</ptr>
+			</behaviours>
+			<children name="normal">
+				<behaviours type="anchoredElement">
+					<ptr>
+						<anchorTarget path="2911878342" />
+						<horizontalAnchor nrp_2="1.0" />
+						<uid entityId="2799507277" />
+						<verticalAnchor nrp_2="1.0" />
+					</ptr>
+				</behaviours>
+				<component type="anchorRect">
+					<ptr colorToDrawBorder="#000000FF" colorToDrawFill="#000000FF" isFillNeeded="true">
+						<uid entityId="2194729407" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="-80.0" y="-40.0" z="0.0" />
+				</transform>
+				<uid entityId="801220394" />
+			</children>
+			<children name="bg">
+				<behaviours type="anchoredElement">
+					<ptr>
+						<anchorTarget path="2911878342" />
+						<horizontalAnchor nrp_2="1.0" />
+						<uid entityId="878216091" />
+						<verticalAnchor nrp_2="1.0" />
+					</ptr>
+				</behaviours>
+				<children name="normal">
+					<behaviours type="anchoredElement">
+						<ptr>
+							<anchorTarget path="878216091" />
+							<horizontalAnchor nrp_2="1.0" />
+							<uid entityId="36127277" />
+							<verticalAnchor nrp_2="1.0" />
+						</ptr>
+					</behaviours>
+					<component type="anchorRect">
+						<ptr colorToDrawBorder="#000000FF" colorToDrawFill="#000000FF">
+							<uid entityId="3166557581" />
+						</ptr>
+					</component>
+					<transform />
+					<uid entityId="771370054" />
+				</children>
+				<children name="over">
+					<behaviours type="anchoredElement">
+						<ptr>
+							<anchorTarget path="878216091" />
+							<horizontalAnchor nrp_2="1.0" />
+							<uid entityId="2459564100" />
+							<verticalAnchor nrp_2="1.0" />
+						</ptr>
+					</behaviours>
+					<component type="anchorRect">
+						<ptr colorToDrawBorder="#00000000" colorToDrawFill="#0000FF00" isFillNeeded="true">
+							<uid entityId="1441077236" />
+						</ptr>
+					</component>
+					<transform />
+					<uid entityId="1437878746" />
+				</children>
+				<children name="pressed">
+					<behaviours type="anchoredElement">
+						<ptr>
+							<anchorTarget path="878216091" />
+							<horizontalAnchor nrp_2="1.0" />
+							<uid entityId="3659593474" />
+							<verticalAnchor nrp_2="1.0" />
+						</ptr>
+					</behaviours>
+					<component type="anchorRect">
+						<ptr colorToDrawBorder="#00000000" colorToDrawFill="#246EF300" isFillNeeded="true">
+							<uid entityId="2195423438" />
+						</ptr>
+					</component>
+					<transform />
+					<uid entityId="2777154599" />
+				</children>
+				<transform>
+					<position x="-80.0" y="-40.0" z="0.0" />
+				</transform>
+				<uid entityId="3833987470" />
+			</children>
+			<children name="Text">
+				<behaviours type="anchoredElement">
+					<ptr>
+						<anchorTarget path="2911878342" />
+						<horizontalAnchor nrp_2="1.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="758342074" />
+						<verticalAnchor nrp_2="1.0" />
+					</ptr>
+				</behaviours>
+				<component type="label">
+					<ptr sfs="true" text="Exit" textOverflowPolicy="NoBreak">
+						<curve />
+						<fontStyle>
+							<asset fontName="ComicSansMSRegular" fontName..editor..ref="assetType@FontFile; raw@true" size="24.0" />
+						</fontStyle>
+						<uid entityId="3705418461" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="-40.0" y="-20.0" z="0.0" />
+				</transform>
+				<uid entityId="645466919" />
+			</children>
+			<transform>
+				<position x="1024.5" y="768.5" z="0.0" />
+			</transform>
+			<uid entityId="3866060805" />
+		</children>
+		<sorting type="priority">
+			<ptr>
+				<uid entityId="1218783874" />
+			</ptr>
+		</sorting>
+		<transform />
+		<uid entityId="845952863" />
+	</root>
+</asset>

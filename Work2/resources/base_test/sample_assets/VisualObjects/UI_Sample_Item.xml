@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<asset assetType="sceneObject">
+	<!--fixes: 3-->
+	<!--physics: 1-->
+	<!--vso: 40-->
+	<root name="Item">
+		<behaviours type="layout">
+			<ptr>
+				<uid entityId="574081286" />
+			</ptr>
+		</behaviours>
+		<behaviours type="simpleLayoutElement">
+			<ptr>
+				<horizontalSize prefferedSize="250.0" />
+				<uid entityId="1326572613" />
+				<verticalSize prefferedSize="350.0" />
+			</ptr>
+		</behaviours>
+		<children name="Icon">
+			<behaviours type="anchoredElement">
+				<ptr>
+					<anchorTarget path="1326572613" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-75.0" offset_2="150.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="2130363790" />
+					<verticalAnchor nrp_1="0.5" offset_1="-25.0" offset_2="150.0" />
+				</ptr>
+			</behaviours>
+			<component type="image">
+				<ptr>
+					<spriteOrTexture />
+					<uid entityId="1426508397" />
+				</ptr>
+			</component>
+			<transform>
+				<position x="0.0" y="50.0" z="0.0" />
+			</transform>
+			<uid entityId="2003728610" />
+		</children>
+		<children name="Background">
+			<behaviours type="anchoredElement">
+				<ptr>
+					<anchorTarget path="1326572613" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-138.0" offset_2="276.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="1338737621" />
+					<verticalAnchor nrp_1="0.5" offset_1="-170.0" offset_2="340.0" />
+				</ptr>
+			</behaviours>
+			<component type="image">
+				<ptr>
+					<spriteOrTexture id="UI_Sample_ItemPanel" id..editor..ref="assetType@SpriteOrTexture; raw@true" />
+					<uid entityId="2665925015" />
+				</ptr>
+			</component>
+			<transform />
+			<uid entityId="1121936793" />
+		</children>
+		<children name="ButtonBuy">
+			<behaviours type="anchoredElement">
+				<ptr>
+					<anchorTarget path="1326572613" />
+					<horizontalAnchor nrp_2="1.0" offset_1="20.0" offset_2="-40.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="1437112615" />
+					<verticalAnchor offset_1="25.0" offset_2="80.0" />
+				</ptr>
+			</behaviours>
+			<behaviours type="button">
+				<ptr>
+					<uid entityId="1583261025" />
+				</ptr>
+			</behaviours>
+			<behaviours type="buttonStateGraph">
+				<ptr>
+					<uid entityId="2213387829" />
+				</ptr>
+			</behaviours>
+			<behaviours type="stateGraph">
+				<ptr>
+					<stateGraph id="UI_ASGButtonPress" id..editor..ref="assetType@stateGraph; raw@true" />
+					<uid entityId="4097701516" />
+				</ptr>
+			</behaviours>
+			<behaviours type="animation">
+				<ptr startMode="Manual">
+					<remoteNodeLocator />
+					<uid entityId="939298845" />
+				</ptr>
+			</behaviours>
+			<children name="Background">
+				<behaviours type="anchoredElement">
+					<ptr>
+						<anchorTarget path="1437112615" />
+						<horizontalAnchor nrp_2="1.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="3118237491" />
+						<verticalAnchor nrp_2="1.0" />
+					</ptr>
+				</behaviours>
+				<component type="image9Slice">
+					<ptr fitPolicy="Stretch">
+						<texture id="UI_Sample_GreenButton" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+						<uid entityId="2064128061" />
+					</ptr>
+				</component>
+				<transform />
+				<uid entityId="1755953477" />
+			</children>
+			<children name="HitTest">
+				<behaviours type="anchoredElement">
+					<ptr>
+						<anchorTarget path="1437112615" />
+						<horizontalAnchor nrp_2="1.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="2404879320" />
+						<verticalAnchor nrp_2="1.0" />
+					</ptr>
+				</behaviours>
+				<component type="anchorRect">
+					<ptr>
+						<uid entityId="2701734559" />
+					</ptr>
+				</component>
+				<transform />
+				<uid entityId="2645866094" />
+			</children>
+			<children name="Label">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="1437112615" />
+						<horizontalAnchor nrp_2="1.0" offset_1="30.0" offset_2="-60.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="2792082714" />
+						<verticalAnchor nrp_2="1.0" offset_1="20.0" offset_2="-30.0" />
+					</ptr>
+				</behaviours>
+				<component type="label">
+					<ptr minLines="false" sfs="true" text="%Buy%" textOverflowPolicy="NoBreak">
+						<curve />
+						<fontStyle>
+							<asset fontName="Poetsen One" fontName..editor..ref="assetType@FontFile; raw@true" size="40.0">
+								<effects effectString="{&quot;blurX&quot;:3,&quot;blurY&quot;:3,&quot;offset&quot;:1,&quot;angle&quot;:270.0,&quot;strength&quot;:2.0,&quot;inner&quot;:false,&quot;color&quot;:4279142167,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" inspectorEffectString..editor="{&quot;blurX&quot;:3,&quot;blurY&quot;:3,&quot;offset&quot;:1,&quot;angle&quot;:270.0,&quot;strength&quot;:2.0,&quot;inner&quot;:false,&quot;color&quot;:4279142167,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" />
+							</asset>
+						</fontStyle>
+						<uid entityId="501247439" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="0.0" y="5.0" z="0.0" />
+				</transform>
+				<uid entityId="1137672650" />
+			</children>
+			<transform>
+				<position x="0.0" y="65.0" z="0.0" />
+			</transform>
+			<uid entityId="1367819844" />
+		</children>
+		<children name="Label">
+			<behaviours type="anchoredElement">
+				<ptr autoAttachToParent="true">
+					<anchorTarget path="1326572613" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-10.0" offset_2="120.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="4074936079" />
+					<verticalAnchor nrp_1="0.5" offset_1="-70.0" offset_2="100.0" />
+				</ptr>
+			</behaviours>
+			<component type="label">
+				<ptr minLines="false" sfs="true" text="x99" textOverflowPolicy="NoBreak">
+					<curve />
+					<fontStyle>
+						<asset fontName="GrilledCheese BTN" fontName..editor..ref="assetType@FontFile; raw@true" size="96.0">
+							<effects effectString="{&quot;anchors&quot;:2,&quot;ratios&quot;:[0,1],&quot;colors&quot;:[4278253311,4278228735],&quot;type&quot;:&quot;gradient&quot;}" inspectorEffectString..editor="{&quot;anchors&quot;:2,&quot;ratios&quot;:[1,0],&quot;colors&quot;:[4278228735,4278253311],&quot;type&quot;:&quot;gradient&quot;}" />
+							<effects effectString="{&quot;size&quot;:3.0,&quot;offset&quot;:2,&quot;angle&quot;:90.0,&quot;power&quot;:0.75,&quot;inner&quot;:false,&quot;color&quot;:4278211246,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;smooth_shadow&quot;}" inspectorEffectString..editor="{&quot;size&quot;:3.0,&quot;offset&quot;:2,&quot;angle&quot;:90.0,&quot;power&quot;:0.75,&quot;inner&quot;:false,&quot;color&quot;:4278211246,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;smooth_shadow&quot;}" />
+						</asset>
+					</fontStyle>
+					<uid entityId="2987047853" />
+				</ptr>
+			</component>
+			<transform>
+				<position x="50.0" y="-20.0" z="0.0" />
+			</transform>
+			<uid entityId="2881329911" />
+		</children>
+		<transform />
+		<uid entityId="2529123800" />
+	</root>
+</asset>

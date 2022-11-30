@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!-- SIGNbadfc82ca8020d004b517d090e6d60e0 -->
+<texts lang="en">
+	<p id="Text_Group_crlf">Эпизод 1: Работа мечты</p>
+	<p id="GroupLabelSingleTextEffect">[AnimShake]Sample single tag text which looks valid.[!]</p>
+	<p id="SP2InfoWindowText4">{style MoneyCounter}Золотой билет{} откроет вам доступ к особым наградам</p>
+	
+	<p id="Ostin">Остин</p>
+	<p id="Father">Уильям</p>
+	<p id="Mother">Оливия</p>
+	<p id="Play">Play</p>
+	<p id="Buy">Купить</p>
+	<p id="VisualChapterOneTitle">Глава 1</p>
+	<p id="VisualChapterTwoTitle">Глава 2</p>
+	<p id="VisualChapterOneText">Начало ужасов</p>
+	<p id="VisualChapterTwoText">Кошмар продолжается</p>
+	<p id="NovelChapterCompleted">Глава завершена</p>
+	
+	<p id="EventVisualNovel_Intro_1">[ShowBySymbol]Дорогая, а ты точно уверена, что тетя Вильгемина живет в этой глуши? Кажется, в прошлую нашу поездку пейзаж был малость посимпатичнее...[!]</p>
+	<p id="EventVisualNovel_Intro_2">[ShowBySymbol]Ага, и лес не казался таким мрачным... Да и вообще возле ее фермы не было никакого леса! Похоже, мы где-то свернули не туда.[!]</p>
+	<p id="EventVisualNovel_Intro_3">[ShowBySymbol]Быть того не может! Я считала повороты. Направо, направо, от моста налево и еще три раза направо, потом мимо большого камня и в лощину...[!]</p>
+	<p id="EventVisualNovel_Intro_4">[ShowBySymbol]Но дорогая, никакой лощины не было! Мы поднялись сразу на холм и увидели внизу эту деревушку. Бр-р-р, какая-то она [!][Event1][!][ShowBySymbol]жутковатая... И людей на улицах нет...[!]</p>
+	<p id="EventVisualNovel_Intro_5">[ShowBySymbol]Это что, выходит, мы заблудились?! Между прочим, уже почти ночь, а мы даже не знаем, где мы есть![!]</p>
+	<p id="EventVisualNovel_Intro_6">[ShowBySymbol]Отставить панику! Сейчас включим навигатор и узнаем, куда нас занесло.[!]</p>
+	
+	<p id="UnderTheSea1">[ShowBySymbol]Where am I?[!]</p>
+	<p id="UnderTheSea2">[ShowBySymbol]You under the sea![!]</p>
+	<p id="UnderTheSea3">[ShowBySymbol]What? Am I dead? Where are you? Is that you, mom? I don't sea you![!]</p>
+	<p id="UnderTheSea4">[ShowBySymbol]Just relax, ok. You are not dead. You are in the matrix actually[!]</p>
+	<p id="UnderTheSea5">[ShowBySymbol]Cool[!]</p>
+	
+	<p id="buy_elephant">Купи слона</p>
+	<p id="buy_whale">Купи кита</p>
+</texts>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<meta>
+	<common>
+		<group local="true" value="test_window" />
+		<library local="true" />
+	</common>
+	<textures>
+		<textureType local="true" />
+	</textures>
+</meta>

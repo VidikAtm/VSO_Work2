@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<assets>
+	<asset assetId="eW80W38VD82O" assetType="textureAsset" path="textures/vso/vso_anim1.png">
+		<!--vso: 2-->
+		<group local="true" value="Loading" />
+		<id value="vso_anim1" />
+		<textureSettings>
+			<addToDynamicAtlas value="false" />
+			<textureType local="true" value="Texture2D" />
+		</textureSettings>
+	</asset>
+	<asset assetId="eW81J3Pj23FH" assetType="textureAsset" path="textures/vso/vso_anim2.png">
+		<!--vso: 2-->
+		<group local="true" value="Loading" />
+		<id value="vso_anim2" />
+		<textureSettings>
+			<addToDynamicAtlas value="false" />
+			<textureType local="true" value="Texture2D" />
+		</textureSettings>
+	</asset>
+	<asset assetId="eW82onrp7HAi" assetType="textureAsset" path="textures/vso/vso_sign.png">
+		<!--vso: 2-->
+		<group local="true" value="Loading" />
+		<id value="vso_sign" />
+		<textureSettings>
+			<addToDynamicAtlas value="false" />
+			<textureType local="true" value="Texture2D" />
+		</textureSettings>
+	</asset>
+	<asset assetId="fX83xWC2GqAI" assetType="shaderAsset">
+		<!--vso: 2-->
+		<id local="true" value="VsoAnimation" />
+		<pixelShader local="true" value="shaders/VsoAnimation.fsh" />
+		<vertexShader local="true" value="shaders/default.vsh" />
+	</asset>
+</assets>

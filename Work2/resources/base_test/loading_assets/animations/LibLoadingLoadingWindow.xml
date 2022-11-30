@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip" duration="4.0" playMode="PingPong">
+	<!--vso: 8-->
+	<track type="float">
+		<ptr binding="icon/fixedRect@image:alpha" name="icon/fixedRect@image:alpha" resetToDefault="true">
+			<param>
+				<key />
+				<key time="2.52">
+					<value lower="0.897" upper="0.897" />
+				</key>
+				<key time="4.0">
+					<value lower="4.759" upper="4.759" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+	<track type="fPoint">
+		<ptr binding="icon/fixedRect/shine:scale2d" name="icon/fixedRect/shine:scale2d" resetToDefault="true">
+			<x>
+				<key />
+				<key fixedGrad="true" time="1.608">
+					<lgrad lower="-0.04" upper="-0.04" />
+					<rgrad lower="1.864" upper="1.864" />
+				</key>
+				<key fixedGrad="true" time="2.392">
+					<lgrad lower="3.127" upper="3.127" />
+					<value lower="1.9" upper="1.9" />
+				</key>
+				<key time="4.0">
+					<value lower="1.9" upper="1.9" />
+				</key>
+			</x>
+			<y>
+				<key />
+				<key fixedGrad="true" time="1.608">
+					<lgrad lower="-0.04" upper="-0.04" />
+					<rgrad lower="1.864" upper="1.864" />
+				</key>
+				<key fixedGrad="true" time="2.392">
+					<lgrad lower="3.127" upper="3.127" />
+					<value lower="1.9" upper="1.9" />
+				</key>
+				<key time="4.0">
+					<value lower="1.9" upper="1.9" />
+				</key>
+			</y>
+		</ptr>
+	</track>
+	<track type="float">
+		<ptr binding="icon/fixedRect/shine@image:alpha" name="icon/fixedRect/shine@image:alpha" resetToDefault="true">
+			<param>
+				<key />
+				<key time="1.4" />
+				<key fixedGrad="true" time="2.4">
+					<lgrad lower="5.177" upper="5.177" />
+					<value lower="3.0" upper="3.0" />
+				</key>
+				<key time="4.0">
+					<value lower="3.0" upper="3.0" />
+				</key>
+			</param>
+		</ptr>
+	</track>
+	<track type="color">
+		<ptr binding="Back@anchorRect:colorToDrawFill" name="Back@anchorRect:colorToDrawFill" resetToDefault="true">
+			<alpha>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key time="1.576">
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key time="4.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</alpha>
+			<blue>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key time="1.576" />
+				<key time="4.0" />
+			</blue>
+			<green>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key time="1.576" />
+				<key time="4.0" />
+			</green>
+			<red>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key time="1.576" />
+				<key time="4.0" />
+			</red>
+		</ptr>
+	</track>
+</asset>

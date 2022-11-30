@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<texts lang="en">
+	<p id="VSO_SigninWindowTitle">Save progress</p>
+	<p id="VSO_SigninWindowText">Connect to Facebook or Apple to save your progress.</p>
+	<p id="VSO_SigninWindowText2">Sign in with Facebook to save your progress.</p>
+	<p id="VSO_SigninWindowText3">Sign in with Apple to save your progress.</p>
+
+	<p id="VSO_SigninFBConnectedBtn">Sign out</p>
+	<p id="VSO_SigninFBBtn">Sign in with Facebook</p>
+
+	<p id="VSO_SigninAppleConnectedBtn">Sign out</p>
+	<p id="VSO_SigninAppleBtn">Sign in with Apple</p>
+</texts>

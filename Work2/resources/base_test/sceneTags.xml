@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<assets>
+	<asset assetId="ACE" assetType="sceneTagCollection" tag="Animation" />
+	<asset assetId="ASG" assetType="sceneTagCollection" tag="ASG" />
+	<asset assetId="Comics" assetType="sceneTagCollection" tag="Comics" />
+	<asset assetId="Editor" assetType="sceneTagCollection" tag="Editor" />
+	<asset assetId="Flash" assetType="sceneTagCollection" tag="C: Flash" />
+	<asset assetId="Geometry2D" assetType="sceneTagCollection" tag="C: Geometry 2D" />
+	<asset assetId="ICS" assetType="sceneTagCollection" tag="ICS" />
+	<asset assetId="Model" assetType="sceneTagCollection" tag="C: Model" />
+	<asset assetId="PacksAndPatches" assetType="sceneTagCollection" tag="Packs and Patches" />
+	<asset assetId="Particles" assetType="sceneTagCollection" tag="C: Particles" />
+	<asset assetId="Performance" assetType="sceneTagCollection" tag="Performance" />
+	<asset assetId="Physics" assetType="sceneTagCollection" tag="Physics" />
+	<asset assetId="QuestAndTutor" assetType="sceneTagCollection" tag="Quests and Tutorials" />
+	<asset assetId="Render" assetType="sceneTagCollection" tag="Render" />
+	<asset assetId="RenderFilter" assetType="sceneTagCollection" tag="Render: Filter" />
+	<asset assetId="RenderReflection" assetType="sceneTagCollection" tag="Render: Reflection" />
+	<asset assetId="RenderTarget" assetType="sceneTagCollection" tag="Render Target" />
+	<asset assetId="Resources" assetType="sceneTagCollection" tag="Resources" />
+	<asset assetId="Samples" assetType="sceneTagCollection" tag="Samples" />
+	<asset assetId="Spine" assetType="sceneTagCollection" tag="C: Spine" />
+	<asset assetId="Sprite" assetType="sceneTagCollection" tag="C: Sprite" />
+	<asset assetId="UI" assetType="sceneTagCollection" tag="UI" />
+	<asset assetId="aceControlTracks" assetType="sceneTagCollection" tag="Animation Control Tracks" />
+	<asset assetId="renderVFX" assetType="sceneTagCollection" tag="VFX" />
+	<asset assetId="resourcesDiffs" assetType="sceneTagCollection" tag="Resources: Diffs" />
+	<asset assetId="resourcesVariants" assetType="sceneTagCollection" tag="Resources: Variants" />
+	<asset assetId="uiLabels" assetType="sceneTagCollection" tag="Labels" />
+	<asset assetId="uiScroller" assetType="sceneTagCollection" tag="UI Scroller" />
+	<asset assetId="vsoParticles" assetType="sceneTagCollection" tag="C: VSO Particles" />
+</assets>

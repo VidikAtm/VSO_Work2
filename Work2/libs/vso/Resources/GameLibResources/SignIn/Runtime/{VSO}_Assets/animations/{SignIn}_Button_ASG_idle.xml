@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip" duration="0.1" playMode="PlayOnce">
+	<!--vso: 4-->
+	<track type="fPoint" name=":scale2d" binding=":scale2d" resetToDefault="false" additive="false">
+		<x similar="false" offset="1.0">
+			<key time="0.0" />
+			<key time="1.0" />
+		</x>
+		<y similar="false" offset="1.0">
+			<key time="0.0" />
+			<key time="1.0" />
+		</y>
+		<xMeta name="">
+			<key leftCurveMode="0" rightCurveMode="0" imaginary="false" />
+			<key leftCurveMode="0" rightCurveMode="0" imaginary="false" />
+		</xMeta>
+		<yMeta name="">
+			<key leftCurveMode="0" rightCurveMode="0" imaginary="false" />
+			<key leftCurveMode="0" rightCurveMode="0" imaginary="false" />
+		</yMeta>
+	</track>
+</asset>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip">
+	<!--vso: 8-->
+	<track type="vector3">
+		<ptr binding=":scale" name=":scale">
+			<x>
+				<key fixedGrad="true">
+					<value lower="1.0" upper="1.0" />
+				</key>
+				<key fixedGrad="true" time="1.0">
+					<value lower="1.0" upper="1.0" />
+				</key>
+			</x>
+			<y>
+				<key fixedGrad="true">
+					<value lower="1.0" upper="1.0" />
+				</key>
+				<key fixedGrad="true" time="1.0">
+					<value lower="1.0" upper="1.0" />
+				</key>
+			</y>
+			<z>
+				<key>
+					<value lower="1.0" upper="1.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="1.0" upper="1.0" />
+				</key>
+			</z>
+		</ptr>
+	</track>
+	<track type="color">
+		<ptr binding="Button@imageTiled:color" name="Button@imageTiled:color">
+			<alpha>
+				<key fixedGrad="true">
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</alpha>
+			<blue>
+				<key fixedGrad="true">
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</blue>
+			<green>
+				<key>
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</green>
+			<red>
+				<key fixedGrad="true">
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</red>
+		</ptr>
+	</track>
+</asset>

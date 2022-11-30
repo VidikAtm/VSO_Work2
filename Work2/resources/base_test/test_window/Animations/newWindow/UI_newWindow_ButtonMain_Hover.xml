@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<asset assetType="animationClip" playMode="Loop">
+	<!--vso: 8-->
+	<track type="color">
+		<ptr binding="Button@imageTiled:color" name="@imageTiled:color">
+			<alpha>
+				<key fixedGrad="true">
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</alpha>
+			<blue>
+				<key fixedGrad="true">
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key fixedGrad="true" time="0.38333">
+					<value lower="107.6" upper="167.65" />
+				</key>
+				<key fixedGrad="true" time="0.53333">
+					<value lower="-2.9492" upper="57.1016" />
+				</key>
+				<key fixedGrad="true" time="0.75">
+					<value lower="189.487" upper="249.538" />
+				</key>
+				<key fixedGrad="true" time="0.93333">
+					<value lower="27.0762" upper="57.0996" />
+				</key>
+				<key fixedGrad="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</blue>
+			<green>
+				<key fixedGrad="true">
+					<value lower="212.691" upper="212.691" />
+				</key>
+				<key fixedGrad="true" time="0.16667">
+					<value lower="250.905" upper="250.905" />
+				</key>
+				<key fixedGrad="true" time="0.31667">
+					<value lower="200.598" upper="200.598" />
+				</key>
+				<key fixedGrad="true" time="0.48333">
+					<value lower="152.23" upper="152.23" />
+				</key>
+				<key fixedGrad="true" time="0.71667">
+					<value lower="149.954" upper="149.954" />
+				</key>
+				<key fixedGrad="true" time="0.98333">
+					<value lower="186.76" upper="186.76" />
+				</key>
+				<key fixedGrad="true" imaginary="true" time="1.0">
+					<value lower="186.76" upper="186.76" />
+				</key>
+			</green>
+			<red>
+				<key fixedGrad="true">
+					<value lower="255.0" upper="255.0" />
+				</key>
+				<key fixedGrad="true" time="0.13333">
+					<value lower="57.1038" upper="108.965" />
+				</key>
+				<key fixedGrad="true" time="0.33333">
+					<value lower="204.502" upper="256.363" />
+				</key>
+				<key fixedGrad="true" time="0.51667">
+					<value lower="83.0343" upper="134.895" />
+				</key>
+				<key fixedGrad="true" time="0.71667">
+					<value lower="197.677" upper="249.538" />
+				</key>
+				<key fixedGrad="true" time="0.91667">
+					<value lower="88.4923" upper="140.353" />
+				</key>
+				<key fixedGrad="true" time="1.0">
+					<value lower="255.0" upper="255.0" />
+				</key>
+			</red>
+		</ptr>
+	</track>
+	<track type="vector3">
+		<ptr binding=":scale" name=":scale">
+			<x>
+				<key>
+					<value lower="1.0" upper="1.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="1.0" upper="1.0" />
+				</key>
+			</x>
+			<y>
+				<key>
+					<value lower="1.0" upper="1.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="1.0" upper="1.0" />
+				</key>
+			</y>
+			<z>
+				<key>
+					<value lower="1.0" upper="1.0" />
+				</key>
+				<key imaginary="true" time="1.0">
+					<value lower="1.0" upper="1.0" />
+				</key>
+			</z>
+		</ptr>
+	</track>
+</asset>

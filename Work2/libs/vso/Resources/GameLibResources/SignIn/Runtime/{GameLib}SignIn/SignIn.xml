@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Frames coords="left-bottom">
+	<frame x="126" y="26" width="21" height="20" innerX="0" innerY="0" frameWidth="21" frameHeight="20" id="{GameLib}SIn_apple_btn_bg" />
+	<frame x="6" y="3" width="21" height="26" innerX="0" innerY="0" frameWidth="21" frameHeight="26" id="{GameLib}SIn_apple_icon" />
+	<frame x="68" y="3" width="33" height="19" innerX="0" innerY="0" frameWidth="33" frameHeight="19" id="{GameLib}SIn_bg_bot" />
+	<frame x="43" y="36" width="10" height="1" innerX="0" innerY="0" frameWidth="10" frameHeight="1" id="{GameLib}SIn_bg_line" />
+	<frame x="4" y="35" width="33" height="10" innerX="0" innerY="0" frameWidth="33" frameHeight="10" id="{GameLib}SIn_bg_mid" />
+	<frame x="108" y="3" width="33" height="18" innerX="0" innerY="0" frameWidth="33" frameHeight="18" id="{GameLib}SIn_bg_top" />
+	<frame x="66" y="26" width="20" height="20" innerX="0" innerY="0" frameWidth="20" frameHeight="20" id="{GameLib}SIn_close_icon" />
+	<frame x="94" y="26" width="21" height="20" innerX="0" innerY="0" frameWidth="21" frameHeight="20" id="{GameLib}SIn_fb_btn_bg" />
+	<frame x="35" y="3" width="27" height="27" innerX="0" innerY="0" frameWidth="27" frameHeight="27" id="{GameLib}SIn_fb_icon" />
+</Frames>

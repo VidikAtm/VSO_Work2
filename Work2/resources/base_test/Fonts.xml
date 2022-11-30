@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Resources>
+	<FreeTypeFonts group="FreeTypeFonts">
+		<font name="MoneyCounter" size="+3" family="Ubuntu-B" color="#feeb16" letterSpacing="0">
+			<effect type="shadow" alpha="1" blurX="4" blurY="4" strength="5" angle="90" inner="false" offset="1" color="#af4a19"/>
+		</font>
+	</FreeTypeFonts>
+</Resources>

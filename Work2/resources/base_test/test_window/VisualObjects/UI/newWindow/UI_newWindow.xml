@@ -1,0 +1,1490 @@
+<?xml version="1.0"?>
+<asset assetType="sceneObject" changesEnabled="Enabled">
+	<!--fixes: 3-->
+	<!--physics: 1-->
+	<!--vso: 40-->
+	<root name="root">
+		<behaviours type="screenBoard">
+			<ptr fitPolicy="ShowAll" isAutoUpdatable="true" refferenceH="750" refferenceW="1334">
+				<uid entityId="3229348955" />
+			</ptr>
+		</behaviours>
+		<behaviours type="input">
+			<ptr>
+				<uid entityId="2094431001" />
+			</ptr>
+		</behaviours>
+		<behaviours type="layout">
+			<ptr>
+				<uid entityId="3184775389" />
+			</ptr>
+		</behaviours>
+		<behaviours type="iCSController">
+			<ptr autoPlay="true">
+				<ics id="UI_newWindow_Main" id..editor..ref="assetType@interactiveCutScene" />
+				<uid entityId="1024430101" />
+			</ptr>
+		</behaviours>
+		<behaviours type="locator">
+			<ptr name="newWindow_Main">
+				<uid entityId="1657712255" />
+			</ptr>
+		</behaviours>
+		<children name="Window">
+			<behaviours type="anchoredElement">
+				<ptr>
+					<anchorTarget path="3229348955" />
+					<horizontalAnchor nrp_1="0.5" offset_1="-358.5" offset_2="717.0" />
+					<normalizedPivot x="0.5" y="0.5" />
+					<uid entityId="4047290962" />
+					<verticalAnchor nrp_1="0.5" offset_1="-289.5" offset_2="579.0" />
+				</ptr>
+			</behaviours>
+			<children name="BackGround">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="4047290962" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-358.5" offset_2="717.0" />
+						<uid entityId="1948418788" />
+						<verticalAnchor nrp_1="0.5" offset_1="-261.0" offset_2="518.0" />
+					</ptr>
+				</behaviours>
+				<component type="imageTiled">
+					<ptr fitPolicy="Stretch" horizontalMirror="true">
+						<texture id="UI_BackGround" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+						<uid entityId="2224970919" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="-358.5" y="-261.0" z="0.0" />
+				</transform>
+				<uid entityId="1850883548" />
+			</children>
+			<children name="FrontPanel">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="4047290962" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-321.0" offset_2="642.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="2836044302" />
+						<verticalAnchor nrp_1="0.5" offset_1="-179.5" offset_2="356.0" />
+					</ptr>
+				</behaviours>
+				<behaviours type="uIScissorRect">
+					<ptr scissorEnabled="true">
+						<uid entityId="1189234149" />
+					</ptr>
+				</behaviours>
+				<behaviours type="scroller">
+					<ptr>
+						<target path="2769173894" />
+						<uid entityId="420459719" />
+					</ptr>
+				</behaviours>
+				<children name="BackgoundPanel">
+					<behaviours type="anchoredElement">
+						<ptr autoAttachToParent="true">
+							<anchorTarget path="2836044302" />
+							<horizontalAnchor nrp_2="1.0" />
+							<normalizedPivot x="0.5" y="0.5" />
+							<uid entityId="1377069404" />
+							<verticalAnchor nrp_2="1.0" offset_1="1.5" offset_2="-3.0" />
+						</ptr>
+					</behaviours>
+					<component type="image9Slice">
+						<ptr fitPolicy="Stretch" xSliceLeft="0.5" xSliceRight="0.5" ySliceLeft="0.5" ySliceRight="0.5">
+							<texture id="UI_FrontPanel" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+							<uid entityId="1959358831" />
+						</ptr>
+					</component>
+					<transform />
+					<uid entityId="362149308" />
+				</children>
+				<children name="Cards">
+					<behaviours type="axisAlignedLayoutGroup">
+						<ptr autoAttachToParent="true" boxCenterizePolicy="LeftMiddle" centerizePolicy="LeftMiddle" horizontalPolicy="AutoRectPreferredSize" isAutoUpdatable="true" verticalPolicy="AutoRectPreferredSize">
+							<anchorTarget path="2836044302" />
+							<borderRect xEnd="0.0" xStart="0.0" yEnd="0.0" yStart="6.5" />
+							<horizontalAnchor offset_2="828.0" />
+							<normalizedPivot x="0.5" y="0.5" />
+							<uid entityId="2769173894" />
+							<verticalAnchor nrp_1="0.5" offset_1="-174.75" offset_2="340.0" />
+						</ptr>
+					</behaviours>
+					<children name="Card1">
+						<link id="UI_newWindow_Card" id..editor..ref="assetType@sceneObject; raw@true; link@true" objId="2815609657">
+							<changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Card" type..editor="stateGraph">
+									<change path="nodeReferences/Root/second">
+										<attribute name="path" value="2/2323799256" which="7" />
+									</change>
+									<key>
+										<ids _v_="1979176583" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="IconsMini">
+									<attribute name="visibility" value="true" which="5" />
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="320.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1485773653" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="anchoredElement">
+									<change path="verticalAnchor">
+										<attribute name="offset_1" value="80.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="131215850" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="color">
+									<attribute name="color" value="#FFFFFF00" which="7" />
+									<key>
+										<ids _v_="72546253" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Disco">
+									<attribute name="visibility" value="false" which="5" />
+									<key>
+										<ids _v_="2944416063" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Hamer">
+									<attribute name="visibility" value="true" which="5" />
+									<key>
+										<ids _v_="250843174" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Icons">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="185.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="229560073" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Disco">
+									<attribute name="visibility" value="false" which="5" />
+									<key>
+										<ids _v_="2396136592" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Hamer">
+									<attribute name="visibility" value="true" which="5" />
+									<key>
+										<ids _v_="22737045" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Button">
+									<change path="transform/position">
+										<attribute name="x" value="141.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="3344246230" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Button" type..editor="button">
+									<attribute name="isEnabled" value="false" which="5" />
+									<key>
+										<ids _v_="2757534399" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Title">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="310.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="1741022691" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="Title" type..editor="label">
+									<attribute name="text" value="Christopher" which="7" />
+									<key>
+										<ids _v_="1775406249" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="LvlText">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="283.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="4061631675" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="LvlText" type..editor="label">
+									<attribute name="text" value="42 level" which="7" />
+									<key>
+										<ids _v_="3160745380" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="CountText">
+									<change path="transform/position">
+										<attribute name="x" value="177.5" which="6" />
+										<attribute name="y" value="137.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1778301540" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="CountText" type..editor="label">
+									<attribute name="text" value="x5" which="7" />
+									<key>
+										<ids _v_="899831847" />
+									</key>
+								</changes>
+							</changes>
+						</link>
+						<transform>
+							<position x="-1104.0" y="-166.75" z="0.0" />
+						</transform>
+						<uid entityId="720083715" />
+					</children>
+					<children name="Card2">
+						<link id="UI_newWindow_Card" id..editor..ref="assetType@sceneObject; raw@true; link@true" objId="2725069197">
+							<changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Card" type..editor="stateGraph">
+									<change path="nodeReferences/Root/second">
+										<attribute name="path" value="2/2323799256" which="7" />
+									</change>
+									<key>
+										<ids _v_="1979176583" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="IconsMini">
+									<attribute name="visibility" value="true" which="5" />
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="320.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1485773653" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="anchoredElement">
+									<change path="verticalAnchor">
+										<attribute name="offset_1" value="80.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="131215850" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="color">
+									<attribute name="color" value="#FFFFFF00" which="7" />
+									<key>
+										<ids _v_="72546253" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Icons">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="185.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="229560073" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Button">
+									<change path="transform/position">
+										<attribute name="x" value="141.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="3344246230" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Button" type..editor="button">
+									<attribute name="isEnabled" value="false" which="5" />
+									<key>
+										<ids _v_="2757534399" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Title">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="310.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="1741022691" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="LvlText">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="283.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="4061631675" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="CountText">
+									<change path="transform/position">
+										<attribute name="x" value="177.5" which="6" />
+										<attribute name="y" value="137.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1778301540" />
+									</key>
+								</changes>
+							</changes>
+						</link>
+						<transform>
+							<position x="-828.0" y="-166.75" z="0.0" />
+						</transform>
+						<uid entityId="720083715" />
+					</children>
+					<children name="Card3">
+						<link id="UI_newWindow_Card" id..editor..ref="assetType@sceneObject; raw@true; link@true" objId="3693067036">
+							<changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Card" type..editor="stateGraph">
+									<change path="nodeReferences/Root/second">
+										<attribute name="path" value="2/2323799256" which="7" />
+									</change>
+									<key>
+										<ids _v_="1979176583" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="IconsMini">
+									<attribute name="visibility" value="true" which="5" />
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="320.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1485773653" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="anchoredElement">
+									<change path="verticalAnchor">
+										<attribute name="offset_1" value="80.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="131215850" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="color">
+									<attribute name="color" value="#FFFFFF00" which="7" />
+									<key>
+										<ids _v_="72546253" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Disco">
+									<attribute name="visibility" value="false" which="5" />
+									<key>
+										<ids _v_="2944416063" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Planes">
+									<attribute name="visibility" value="true" which="5" />
+									<key>
+										<ids _v_="2644874197" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Icons">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="185.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="229560073" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Disco">
+									<attribute name="visibility" value="false" which="5" />
+									<key>
+										<ids _v_="2396136592" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Planes">
+									<attribute name="visibility" value="true" which="5" />
+									<key>
+										<ids _v_="2944930155" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Button">
+									<change path="transform/position">
+										<attribute name="x" value="141.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="3344246230" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Button" type..editor="button">
+									<attribute name="isEnabled" value="false" which="5" />
+									<key>
+										<ids _v_="2757534399" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Title">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="310.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="1741022691" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="Title" type..editor="label">
+									<attribute name="text" value="Pilot" which="7" />
+									<key>
+										<ids _v_="1775406249" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="LvlText">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="283.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="4061631675" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="LvlText" type..editor="label">
+									<attribute name="text" value="111 level" which="7" />
+									<key>
+										<ids _v_="3160745380" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="CountText">
+									<change path="transform/position">
+										<attribute name="x" value="177.5" which="6" />
+										<attribute name="y" value="137.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1778301540" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="CountText" type..editor="label">
+									<attribute name="text" value="x3" which="7" />
+									<key>
+										<ids _v_="899831847" />
+									</key>
+								</changes>
+							</changes>
+						</link>
+						<transform>
+							<position x="-552.0" y="-166.75" z="0.0" />
+						</transform>
+						<uid entityId="720083715" />
+					</children>
+					<children name="Card4">
+						<link id="UI_newWindow_Card" id..editor..ref="assetType@sceneObject; raw@true; link@true" objId="2438779477">
+							<changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Card" type..editor="stateGraph">
+									<change path="nodeReferences/Root/second">
+										<attribute name="path" value="2/2323799256" which="7" />
+									</change>
+									<key>
+										<ids _v_="1979176583" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="IconsMini">
+									<attribute name="visibility" value="true" which="5" />
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="320.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1485773653" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="anchoredElement">
+									<change path="verticalAnchor">
+										<attribute name="offset_1" value="80.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="131215850" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="color">
+									<attribute name="color" value="#FFFFFF00" which="7" />
+									<key>
+										<ids _v_="72546253" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Icons">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="185.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="229560073" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Button">
+									<change path="transform/position">
+										<attribute name="x" value="141.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="3344246230" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Button" type..editor="button">
+									<attribute name="isEnabled" value="false" which="5" />
+									<key>
+										<ids _v_="2757534399" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Title">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="310.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="1741022691" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="Title" type..editor="label">
+									<attribute name="text" value="Mike" which="7" />
+									<key>
+										<ids _v_="1775406249" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="LvlText">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="283.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="4061631675" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="LvlText" type..editor="label">
+									<attribute name="text" value="34 level" which="7" />
+									<key>
+										<ids _v_="3160745380" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="CountText">
+									<change path="transform/position">
+										<attribute name="x" value="177.5" which="6" />
+										<attribute name="y" value="137.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1778301540" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="CountText" type..editor="label">
+									<attribute name="text" value="x65" which="7" />
+									<key>
+										<ids _v_="899831847" />
+									</key>
+								</changes>
+							</changes>
+						</link>
+						<transform>
+							<position x="-276.0" y="-166.75" z="0.0" />
+						</transform>
+						<uid entityId="720083715" />
+					</children>
+					<children name="Card5">
+						<link id="UI_newWindow_Card" id..editor..ref="assetType@sceneObject; raw@true; link@true" objId="3455297670">
+							<changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Card" type..editor="stateGraph">
+									<change path="nodeReferences/Root/second">
+										<attribute name="path" value="2/2323799256" which="7" />
+									</change>
+									<key>
+										<ids _v_="1979176583" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="IconsMini">
+									<attribute name="visibility" value="true" which="5" />
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="320.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1485773653" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="anchoredElement">
+									<change path="verticalAnchor">
+										<attribute name="offset_1" value="80.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="131215850" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="color">
+									<attribute name="color" value="#FFFFFF00" which="7" />
+									<key>
+										<ids _v_="72546253" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Disco">
+									<attribute name="visibility" value="false" which="5" />
+									<key>
+										<ids _v_="2944416063" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Hamer">
+									<attribute name="visibility" value="true" which="5" />
+									<key>
+										<ids _v_="250843174" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Icons">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="185.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="229560073" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Disco">
+									<attribute name="visibility" value="false" which="5" />
+									<key>
+										<ids _v_="2396136592" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Hamer">
+									<attribute name="visibility" value="true" which="5" />
+									<key>
+										<ids _v_="22737045" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Button">
+									<change path="transform/position">
+										<attribute name="x" value="141.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="3344246230" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Button" type..editor="button">
+									<attribute name="isEnabled" value="false" which="5" />
+									<key>
+										<ids _v_="2757534399" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Title">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="310.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="1741022691" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="Title" type..editor="label">
+									<attribute name="text" value="Ivan" which="7" />
+									<key>
+										<ids _v_="1775406249" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="LvlText">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="283.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="4061631675" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="LvlText" type..editor="label">
+									<attribute name="text" value="24 level" which="7" />
+									<key>
+										<ids _v_="3160745380" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="CountText">
+									<change path="transform/position">
+										<attribute name="x" value="177.5" which="6" />
+										<attribute name="y" value="137.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1778301540" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="CountText" type..editor="label">
+									<attribute name="text" value="x18" which="7" />
+									<key>
+										<ids _v_="899831847" />
+									</key>
+								</changes>
+							</changes>
+						</link>
+						<transform>
+							<position x="0.0" y="-166.75" z="0.0" />
+						</transform>
+						<uid entityId="720083715" />
+					</children>
+					<children name="Card6">
+						<link id="UI_newWindow_Card" id..editor..ref="assetType@sceneObject; raw@true; link@true" objId="1218805317">
+							<changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Card" type..editor="stateGraph">
+									<change path="nodeReferences/Root/second">
+										<attribute name="path" value="2/2323799256" which="7" />
+									</change>
+									<key>
+										<ids _v_="1979176583" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="IconsMini">
+									<attribute name="visibility" value="true" which="5" />
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="320.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1485773653" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="anchoredElement">
+									<change path="verticalAnchor">
+										<attribute name="offset_1" value="80.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="131215850" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="color">
+									<attribute name="color" value="#FFFFFF00" which="7" />
+									<key>
+										<ids _v_="72546253" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Disco">
+									<attribute name="visibility" value="false" which="5" />
+									<key>
+										<ids _v_="2944416063" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Planes">
+									<attribute name="visibility" value="true" which="5" />
+									<key>
+										<ids _v_="2644874197" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Icons">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="185.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="229560073" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Disco">
+									<attribute name="visibility" value="false" which="5" />
+									<key>
+										<ids _v_="2396136592" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Planes">
+									<attribute name="visibility" value="true" which="5" />
+									<key>
+										<ids _v_="2944930155" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Button">
+									<change path="transform/position">
+										<attribute name="x" value="141.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="3344246230" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Button" type..editor="button">
+									<attribute name="isEnabled" value="false" which="5" />
+									<key>
+										<ids _v_="2757534399" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Title">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="310.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="1741022691" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="Title" type..editor="label">
+									<attribute name="text" value="Boris Sergeevich" which="7" />
+									<key>
+										<ids _v_="1775406249" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="LvlText">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="283.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="4061631675" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="LvlText" type..editor="label">
+									<attribute name="text" value="93 level" which="7" />
+									<key>
+										<ids _v_="3160745380" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="CountText">
+									<change path="transform/position">
+										<attribute name="x" value="177.5" which="6" />
+										<attribute name="y" value="137.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1778301540" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="CountText" type..editor="label">
+									<attribute name="text" value="x79" which="7" />
+									<key>
+										<ids _v_="899831847" />
+									</key>
+								</changes>
+							</changes>
+						</link>
+						<transform>
+							<position x="276.0" y="-166.75" z="0.0" />
+						</transform>
+						<uid entityId="720083715" />
+					</children>
+					<children name="Card7">
+						<link id="UI_newWindow_Card" id..editor..ref="assetType@sceneObject; raw@true; link@true" objId="1430313000">
+							<changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Card" type..editor="stateGraph">
+									<change path="nodeReferences/Root/second">
+										<attribute name="path" value="2/2323799256" which="7" />
+									</change>
+									<key>
+										<ids _v_="1979176583" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="IconsMini">
+									<attribute name="visibility" value="true" which="5" />
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="320.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1485773653" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="anchoredElement">
+									<change path="verticalAnchor">
+										<attribute name="offset_1" value="80.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="131215850" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="color">
+									<attribute name="color" value="#FFFFFF00" which="7" />
+									<key>
+										<ids _v_="72546253" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Disco">
+									<attribute name="visibility" value="false" which="5" />
+									<key>
+										<ids _v_="2944416063" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Hamer">
+									<attribute name="visibility" value="true" which="5" />
+									<key>
+										<ids _v_="250843174" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Icons">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="185.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="229560073" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Disco">
+									<attribute name="visibility" value="false" which="5" />
+									<key>
+										<ids _v_="2396136592" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Hamer">
+									<attribute name="visibility" value="true" which="5" />
+									<key>
+										<ids _v_="22737045" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Button">
+									<change path="transform/position">
+										<attribute name="x" value="141.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="3344246230" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Button" type..editor="button">
+									<attribute name="isEnabled" value="false" which="5" />
+									<key>
+										<ids _v_="2757534399" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Title">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="310.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="1741022691" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="Title" type..editor="label">
+									<attribute name="text" value="Viola" which="7" />
+									<key>
+										<ids _v_="1775406249" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="LvlText">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="283.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="4061631675" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="LvlText" type..editor="label">
+									<attribute name="text" value="6 level" which="7" />
+									<key>
+										<ids _v_="3160745380" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="CountText">
+									<change path="transform/position">
+										<attribute name="x" value="177.5" which="6" />
+										<attribute name="y" value="137.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1778301540" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="CountText" type..editor="label">
+									<attribute name="text" value="x7" which="7" />
+									<key>
+										<ids _v_="899831847" />
+									</key>
+								</changes>
+							</changes>
+						</link>
+						<transform>
+							<position x="552.0" y="-166.75" z="0.0" />
+						</transform>
+						<uid entityId="720083715" />
+					</children>
+					<children name="Card8">
+						<link id="UI_newWindow_Card" id..editor..ref="assetType@sceneObject; raw@true; link@true" objId="1877034540">
+							<changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Card" type..editor="stateGraph">
+									<change path="nodeReferences/Root/second">
+										<attribute name="path" value="2/2323799256" which="7" />
+									</change>
+									<key>
+										<ids _v_="1979176583" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="IconsMini">
+									<attribute name="visibility" value="true" which="5" />
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="320.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1485773653" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="anchoredElement">
+									<change path="verticalAnchor">
+										<attribute name="offset_1" value="80.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="131215850" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="IconsMini" type..editor="color">
+									<attribute name="color" value="#FFFFFF00" which="7" />
+									<key>
+										<ids _v_="72546253" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Icons">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="185.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="229560073" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Button">
+									<change path="transform/position">
+										<attribute name="x" value="141.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="3344246230" />
+									</key>
+								</changes>
+								<changes kind..editor="Behaviour" nodeName..editor="Button" type..editor="button">
+									<attribute name="isEnabled" value="false" which="5" />
+									<key>
+										<ids _v_="2757534399" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="Title">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="310.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="1741022691" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="Title" type..editor="label">
+									<attribute name="text" value="Grigoriy" which="7" />
+									<key>
+										<ids _v_="1775406249" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="LvlText">
+									<change path="transform/position">
+										<attribute name="x" value="138.0" which="6" />
+										<attribute name="y" value="283.5" which="6" />
+									</change>
+									<key>
+										<ids _v_="4061631675" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="LvlText" type..editor="label">
+									<attribute name="text" value="31 level" which="7" />
+									<key>
+										<ids _v_="3160745380" />
+									</key>
+								</changes>
+								<changes kind..editor="Node" nodeName..editor="CountText">
+									<change path="transform/position">
+										<attribute name="x" value="177.5" which="6" />
+										<attribute name="y" value="137.0" which="6" />
+									</change>
+									<key>
+										<ids _v_="1778301540" />
+									</key>
+								</changes>
+								<changes kind..editor="Component" nodeName..editor="CountText" type..editor="label">
+									<attribute name="text" value="x9" which="7" />
+									<key>
+										<ids _v_="899831847" />
+									</key>
+								</changes>
+							</changes>
+						</link>
+						<transform>
+							<position x="828.0" y="-166.75" z="0.0" />
+						</transform>
+						<uid entityId="720083715" />
+					</children>
+					<transform>
+						<position x="783.0" y="-4.75" z="0.0" />
+					</transform>
+					<uid entityId="4218916209" />
+				</children>
+				<children name="Shape">
+					<behaviours type="anchoredElement">
+						<ptr autoAttachToParent="true">
+							<anchorTarget path="2836044302" />
+							<horizontalAnchor nrp_2="1.0" offset_1="-1.5" offset_2="3.0" />
+							<normalizedPivot x="0.5" y="0.5" />
+							<uid entityId="1876822124" />
+							<verticalAnchor nrp_2="1.0" />
+						</ptr>
+					</behaviours>
+					<component type="image9Slice">
+						<ptr fitPolicy="Stretch" ignoreRaycastCheck="true" xSliceLeft="0.5" xSliceRight="0.5" ySliceLeft="0.5" ySliceRight="0.5">
+							<texture id="UI_FrontShape" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+							<uid entityId="435435553" />
+						</ptr>
+					</component>
+					<transform />
+					<uid entityId="149189831" />
+				</children>
+				<transform>
+					<position x="-3.05176e-05" y="-1.5" z="0.0" />
+				</transform>
+				<uid entityId="591153502" />
+			</children>
+			<children name="Title">
+				<behaviours type="anchoredElement">
+					<ptr>
+						<anchorTarget path="4047290962" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-359.0" offset_2="718.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="444542640" />
+						<verticalAnchor nrp_1="1.0" offset_1="-100.0" offset_2="100.0" />
+					</ptr>
+				</behaviours>
+				<children name="Header">
+					<behaviours type="anchoredElement">
+						<ptr autoAttachToParent="true">
+							<anchorTarget path="444542640" />
+							<horizontalAnchor nrp_1="0.5" offset_1="-180.0" offset_2="360.0" />
+							<uid entityId="3824654128" />
+							<verticalAnchor nrp_1="1.0" offset_1="-92.0" offset_2="90.0" />
+						</ptr>
+					</behaviours>
+					<children name="Title">
+						<behaviours type="anchoredElement">
+							<ptr autoAttachToParent="true">
+								<anchorTarget path="3824654128" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-141.0" offset_2="282.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+								<uid entityId="2213967581" />
+								<verticalAnchor nrp_1="0.5" offset_1="-21.0" offset_2="56.0" />
+							</ptr>
+						</behaviours>
+						<component type="label">
+							<ptr sfs="true" text="Send Boosters!" textOverflowPolicy="NoBreak">
+								<curve />
+								<fontStyle>
+									<asset color="#AF4A19FF" fontName="Poetsen One" fontName..editor..ref="assetType@FontFile; raw@true" size="36.0">
+										<effects effectString="{&quot;blurX&quot;:0,&quot;blurY&quot;:0,&quot;offset&quot;:2,&quot;angle&quot;:90.0,&quot;strength&quot;:1.0,&quot;inner&quot;:true,&quot;color&quot;:4278859927,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" inspectorEffectString..editor="{&quot;blurX&quot;:0,&quot;blurY&quot;:0,&quot;offset&quot;:2,&quot;angle&quot;:90.0,&quot;strength&quot;:1.0,&quot;inner&quot;:true,&quot;color&quot;:4278859927,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" />
+										<effects effectString="{&quot;blurX&quot;:0,&quot;blurY&quot;:0,&quot;offset&quot;:1,&quot;angle&quot;:90.0,&quot;strength&quot;:10.0,&quot;inner&quot;:false,&quot;color&quot;:4288348159,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" inspectorEffectString..editor="{&quot;blurX&quot;:0,&quot;blurY&quot;:0,&quot;offset&quot;:1,&quot;angle&quot;:90.0,&quot;strength&quot;:10.0,&quot;inner&quot;:false,&quot;color&quot;:4288348159,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" />
+									</asset>
+								</fontStyle>
+								<uid entityId="3351262917" />
+							</ptr>
+						</component>
+						<transform>
+							<position x="180.0" y="52.0" z="0.0" />
+						</transform>
+						<uid entityId="160616475" />
+					</children>
+					<component type="imageTiled">
+						<ptr fitPolicy="Stretch" horizontalMirror="true">
+							<texture id="UI_Header" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+							<uid entityId="1379404949" />
+						</ptr>
+					</component>
+					<transform>
+						<position x="-180.0" y="-42.0" z="0.0" />
+					</transform>
+					<uid entityId="1729191541" />
+				</children>
+				<children name="BtnQuit">
+					<behaviours type="anchoredElement">
+						<ptr>
+							<anchorTarget path="444542640" />
+							<horizontalAnchor nrp_1="1.0" offset_1="-62.5" offset_2="28.0" />
+							<normalizedPivot x="0.5" y="0.5" />
+							<uid entityId="3228482548" />
+							<verticalAnchor nrp_1="0.5" offset_1="-42.0" offset_2="28.0" />
+						</ptr>
+					</behaviours>
+					<behaviours type="animation">
+						<ptr startMode="Manual">
+							<remoteNodeLocator />
+							<uid entityId="366138509" />
+						</ptr>
+					</behaviours>
+					<behaviours type="stateGraph">
+						<ptr>
+							<stateGraph id="UI_newWindow_ButtonCard" id..editor..ref="assetType@stateGraph; raw@true" />
+							<uid entityId="3128790605" />
+						</ptr>
+					</behaviours>
+					<behaviours type="button">
+						<ptr>
+							<uid entityId="2490084682" />
+						</ptr>
+					</behaviours>
+					<behaviours type="buttonStateGraph">
+						<ptr disabledStateName="" hoverStateName="" normalStateName="Idle" pressedStateName="Pressed">
+							<uid entityId="2706966069" />
+						</ptr>
+					</behaviours>
+					<children name="HitRect">
+						<behaviours type="anchoredElement">
+							<ptr>
+								<anchorTarget path="3228482548" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-32.5" offset_2="65.0" />
+								<normalizedPivot x="0.5" y="0.5" />
+								<uid entityId="1270844907" />
+								<verticalAnchor nrp_1="0.5" offset_1="-32.5" offset_2="65.0" />
+							</ptr>
+						</behaviours>
+						<component type="anchorRect">
+							<ptr>
+								<uid entityId="2597015426" />
+							</ptr>
+						</component>
+						<transform />
+						<uid entityId="1319595587" />
+					</children>
+					<component type="image">
+						<ptr fitPolicy="Stretch">
+							<spriteOrTexture id="UI_Quit" id..editor..ref="assetType@SpriteOrTexture; raw@true" />
+							<uid entityId="223857788" />
+						</ptr>
+					</component>
+					<transform>
+						<position x="310.5" y="-28.0" z="0.0" />
+					</transform>
+					<uid entityId="2127947108" />
+				</children>
+				<transform>
+					<position x="-3.05176e-05" y="239.5" z="0.0" />
+				</transform>
+				<uid entityId="1985807127" />
+			</children>
+			<children name="ProgressBar">
+				<behaviours type="anchoredElement">
+					<ptr>
+						<anchorTarget path="4047290962" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-115.5" offset_2="231.0" />
+						<normalizedPivot x="0.5" y="0.5" />
+						<uid entityId="826330349" />
+						<verticalAnchor offset_1="87.5" offset_2="48.0" />
+					</ptr>
+				</behaviours>
+				<children name="Background">
+					<behaviours type="anchoredElement">
+						<ptr autoAttachToParent="true">
+							<anchorTarget path="826330349" />
+							<horizontalAnchor nrp_1="0.5" offset_1="-110.0" offset_2="222.0" />
+							<normalizedPivot x="0.5" y="0.5" />
+							<uid entityId="1596049872" />
+							<verticalAnchor nrp_1="0.5" offset_1="-22.0" offset_2="40.0" />
+						</ptr>
+					</behaviours>
+					<component type="image9Slice">
+						<ptr fitPolicy="Stretch" xSliceLeft="0.5" xSliceRight="0.5" ySliceLeft="0.5" ySliceRight="0.5">
+							<texture id="UI_ProgressBarSape" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+							<uid entityId="826422695" />
+						</ptr>
+					</component>
+					<transform>
+						<position x="1.0" y="-2.0" z="0.0" />
+					</transform>
+					<uid entityId="3896311226" />
+				</children>
+				<children name="GreenLine">
+					<behaviours type="anchoredElement">
+						<ptr autoAttachToParent="true">
+							<anchorTarget path="826330349" />
+							<horizontalAnchor offset_1="8.0" offset_2="77.5" />
+							<normalizedPivot x="0.0" y="0.5" />
+							<uid entityId="1739255136" />
+							<verticalAnchor nrp_1="0.5" offset_1="-13.5" offset_2="30.0" />
+						</ptr>
+					</behaviours>
+					<behaviours type="animationProgressBar">
+						<ptr id="UI_newWindow_ProgressBar" id..editor..ref="assetType@animationClip; raw@true">
+							<uid entityId="3788636355" />
+						</ptr>
+					</behaviours>
+					<component type="image9Slice">
+						<ptr fitPolicy="Stretch" xSliceLeft="0.5" xSliceRight="0.5">
+							<texture id="UI_GreenLine" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+							<uid entityId="4279096240" />
+						</ptr>
+					</component>
+					<transform>
+						<angles x="0.48633" y="0.0" z="0.0" />
+						<position x="-107.5" y="1.5" z="0.0" />
+					</transform>
+					<uid entityId="3752876809" />
+				</children>
+				<children name="Frame">
+					<behaviours type="anchoredElement">
+						<ptr autoAttachToParent="true">
+							<anchorTarget path="826330349" />
+							<horizontalAnchor nrp_2="1.0" />
+							<normalizedPivot x="0.5" y="0.5" />
+							<uid entityId="3089941472" />
+							<verticalAnchor nrp_2="1.0" />
+						</ptr>
+					</behaviours>
+					<component type="image9Slice">
+						<ptr fitPolicy="Stretch" xSliceLeft="0.5" xSliceRight="0.5" ySliceLeft="0.5" ySliceRight="0.5">
+							<texture id="UI_ProgressBarFrame" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+							<uid entityId="2151607921" />
+						</ptr>
+					</component>
+					<transform />
+					<uid entityId="3782217980" />
+				</children>
+				<children name="CountText">
+					<behaviours type="anchoredElement">
+						<ptr autoAttachToParent="true">
+							<anchorTarget path="826330349" />
+							<horizontalAnchor nrp_1="0.5" offset_1="-50.5" offset_2="101.0" />
+							<normalizedPivot x="0.5" y="0.5" />
+							<uid entityId="2488821819" />
+							<verticalAnchor nrp_1="0.5" offset_1="-14.5" offset_2="35.0" />
+						</ptr>
+					</behaviours>
+					<component type="label">
+						<ptr sfs="true" text="0/8" textOverflowPolicy="NoBreak">
+							<curve />
+							<fontStyle id="UI_newWindow_ProgressBarCount" id..editor..ref="assetType@fontStyle; raw@true" />
+							<uid entityId="4042592354" />
+						</ptr>
+					</component>
+					<transform>
+						<position x="0.0" y="3.0" z="0.0" />
+					</transform>
+					<uid entityId="2609065220" />
+				</children>
+				<transform>
+					<position x="-3.05176e-05" y="-178.0" z="0.0" />
+				</transform>
+				<uid entityId="3914699391" />
+			</children>
+			<children name="MainButtonBg">
+				<behaviours type="anchoredElement">
+					<ptr autoAttachToParent="true">
+						<anchorTarget path="4047290962" />
+						<horizontalAnchor nrp_1="0.5" offset_1="-147.5" offset_2="295.0" />
+						<uid entityId="2947620431" />
+						<verticalAnchor offset_2="83.0" />
+					</ptr>
+				</behaviours>
+				<children name="MainButton">
+					<behaviours type="anchoredElement">
+						<ptr autoAttachToParent="true">
+							<anchorTarget path="2947620431" />
+							<horizontalAnchor nrp_1="0.5" offset_1="-147.5" offset_2="295.0" />
+							<normalizedPivot x="0.5" y="0.5" />
+							<uid entityId="3943197274" />
+							<verticalAnchor offset_2="83.0" />
+						</ptr>
+					</behaviours>
+					<behaviours type="stateGraph">
+						<ptr>
+							<stateGraph id="UI_newWindow_ButtonMain" id..editor..ref="assetType@stateGraph; raw@true" />
+							<uid entityId="1144019015" />
+						</ptr>
+					</behaviours>
+					<behaviours type="button">
+						<ptr>
+							<uid entityId="566153032" />
+						</ptr>
+					</behaviours>
+					<behaviours type="buttonStateGraph">
+						<ptr disabledStateName="DIsable" hoverStateName="Hover" normalStateName="Idle" pressedStateName="Pressed">
+							<uid entityId="3253286670" />
+						</ptr>
+					</behaviours>
+					<behaviours type="animation">
+						<ptr startMode="Manual">
+							<remoteNodeLocator />
+							<uid entityId="1448186169" />
+						</ptr>
+					</behaviours>
+					<children name="Button">
+						<behaviours type="anchoredElement">
+							<ptr autoAttachToParent="true">
+								<anchorTarget path="3943197274" />
+								<horizontalAnchor nrp_1="0.5" offset_1="-144.5" offset_2="289.0" />
+								<uid entityId="2962588791" />
+								<verticalAnchor nrp_1="0.5" offset_1="-38.5" offset_2="77.0" />
+							</ptr>
+						</behaviours>
+						<children name="Blick">
+							<behaviours type="anchoredElement">
+								<ptr autoAttachToParent="true">
+									<anchorTarget path="2962588791" />
+									<horizontalAnchor offset_1="8.0" offset_2="19.0" />
+									<normalizedPivot x="0.5" y="0.5" />
+									<uid entityId="925642042" />
+									<verticalAnchor nrp_1="1.0" offset_1="-27.0" offset_2="20.0" />
+								</ptr>
+							</behaviours>
+							<component type="image">
+								<ptr>
+									<spriteOrTexture id="UI_Blick" id..editor..ref="assetType@SpriteOrTexture; raw@true" />
+									<uid entityId="3055499516" />
+								</ptr>
+							</component>
+							<transform>
+								<position x="17.5" y="60.0" z="0.0" />
+							</transform>
+							<uid entityId="709926554" />
+						</children>
+						<children name="Text">
+							<behaviours type="anchoredElement">
+								<ptr autoAttachToParent="true">
+									<anchorTarget path="2962588791" />
+									<horizontalAnchor nrp_1="0.5" offset_1="-113.5" offset_2="227.0" />
+									<normalizedPivot x="0.5" y="0.5" />
+									<uid entityId="1793507434" />
+									<verticalAnchor nrp_1="0.5" offset_1="-20.5" offset_2="53.0" />
+								</ptr>
+							</behaviours>
+							<component type="label">
+								<ptr ignoreRaycastCheck="true" letterSpacing="1.0" sfs="true" text="Send All" textOverflowPolicy="NoBreak">
+									<curve />
+									<fontStyle>
+										<asset color="#FFF7E1FF" fontName="Poetsen One" fontName..editor..ref="assetType@FontFile; raw@true" size="36.0">
+											<effects effectString="{&quot;strokeTop&quot;:1,&quot;strokeBottom&quot;:1,&quot;strokeLeft&quot;:1,&quot;strokeRight&quot;:1,&quot;color&quot;:4279070720,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;stroke&quot;}" inspectorEffectString..editor="{&quot;strokeTop&quot;:1,&quot;strokeBottom&quot;:1,&quot;strokeLeft&quot;:1,&quot;strokeRight&quot;:1,&quot;color&quot;:4279070720,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;stroke&quot;}" />
+											<effects effectString="{&quot;blurX&quot;:1,&quot;blurY&quot;:1,&quot;offset&quot;:1,&quot;angle&quot;:270.0,&quot;strength&quot;:1.0,&quot;inner&quot;:false,&quot;color&quot;:4279070720,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" inspectorEffectString..editor="{&quot;blurX&quot;:1,&quot;blurY&quot;:1,&quot;offset&quot;:1,&quot;angle&quot;:270.0,&quot;strength&quot;:1.0,&quot;inner&quot;:false,&quot;color&quot;:4279070720,&quot;alpha&quot;:1.0,&quot;type&quot;:&quot;shadow&quot;}" />
+										</asset>
+									</fontStyle>
+									<uid entityId="711570684" />
+								</ptr>
+							</component>
+							<transform>
+								<position x="144.5" y="44.5" z="0.0" />
+							</transform>
+							<uid entityId="2085726681" />
+						</children>
+						<component type="imageTiled">
+							<ptr fitPolicy="Stretch" horizontalMirror="true">
+								<texture id="UI_MainButton" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+								<uid entityId="2736941096" />
+							</ptr>
+						</component>
+						<transform>
+							<position x="-144.5" y="-38.5" z="0.0" />
+						</transform>
+						<uid entityId="3866326590" />
+					</children>
+					<transform>
+						<position x="147.5" y="41.5" z="0.0" />
+					</transform>
+					<uid entityId="1010215069" />
+				</children>
+				<component type="imageTiled">
+					<ptr fitPolicy="Stretch" horizontalMirror="true">
+						<texture id="UI_BackgroundButtonMain" id..editor..ref="assetType@TextureOrTarget; raw@true" />
+						<uid entityId="2209016005" />
+					</ptr>
+				</component>
+				<transform>
+					<position x="-147.5" y="-289.5" z="0.0" />
+				</transform>
+				<uid entityId="3721283604" />
+			</children>
+			<transform>
+				<position x="667.5" y="375.5" z="0.0" />
+			</transform>
+			<uid entityId="305026999" />
+		</children>
+		<sorting type="priority">
+			<ptr>
+				<uid entityId="1353060093" />
+			</ptr>
+		</sorting>
+		<transform />
+		<uid entityId="2323799256" />
+	</root>
+</asset>

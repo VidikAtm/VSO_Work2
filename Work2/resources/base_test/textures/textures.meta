@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<meta>
+	<common>
+		<library local="true" value="main" />
+	</common>
+	<textures>
+		<addToDynamicAtlas local="true" value="false" />
+	</textures>
+</meta>

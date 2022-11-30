@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<texts lang="ru">
+	<p id="VSO_SigninWindowTitle">Сохраните прогресс</p>
+	<p id="VSO_SigninWindowText">Подключитесь, чтобы сохранить свой прогресс.</p>
+
+	<p id="VSO_SigninFBConnectedBtn">Выйти</p>
+	<p id="VSO_SigninFBBtn">Вход с Facebook</p>
+
+	<p id="VSO_SigninAppleConnectedBtn">Выйти</p>
+	<p id="VSO_SigninAppleBtn">Вход с Apple</p>
+</texts>

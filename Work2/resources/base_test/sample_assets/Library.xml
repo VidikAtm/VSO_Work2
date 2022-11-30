@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<library>
+	<SOCollection editorPath="VisualObjects" path="ContentLibrary.bin" />
+	<FontCollection editorPath="Fonts" path="Fonts.vso" />
+	<AnimationCollection editorPath="Animations" path="AnimationsLibrary.bin" />
+	<ASGCollection editorPath="AnimationStateGraphs" path="AnimationStateGraphs.vso" />
+	<InteractiveCutScenes editorPath="InteractiveCutScenes" path="InteractiveCutScenes.vso" />
+	<Resources path="ResourceAssets.xml" engineResources="Resources.xml"/>
+</library>

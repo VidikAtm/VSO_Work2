@@ -1,0 +1,33 @@
+<Resources>
+	<Shaders basePath="{VSO}_EditorResources" upload="false" explicitLoading="false">
+		<shader id="{VSO}_Selection" vs="shaders/Selection.vsh" ps="shaders/Selection.fsh" />
+	</Shaders>
+	
+	<Textures basePath="{VSO}_EditorResources/Textures" pack="false" group="EffectEditorGroup" explicitLoading="false">
+		<texture id="{VSO}_EffectEditorFillSpline" path="fill.png"/>
+		<texture id="{VSO}_EffectEditorAxisDotLine" path="dotline.png"/>
+		<texture id="{VSO}_eyeOn" path="eye_on.png"/>
+		<texture id="{VSO}_eyeOff" path="eye_off.png"/>
+		<texture id="{VSO}_TransparentBackground" path="transparent.png" />
+	</Textures>
+	
+	<Textures basePath="{VSO}_EditorResources/Textures" pack="false" group="CommonTextures" explicitLoading="false">
+		<texture id="{VSO}_TextureBack" path="textureBack.png"/> 		
+	</Textures>
+	
+	<Icons basePath="{VSO}_EditorResources/Textures/Spline" id="CommonSplineIcons" explicitLoading="false">
+		<icon id="{VSO}_Selection" path="Selection.png"/>
+		<icon id="{VSO}_InteractiveSelection" path="InteractiveSelection.png"/>
+		<icon id="{VSO}_Gradient" path="Gradient.png"/>
+		<icon id="{VSO}_Symmetry" path="Symmetry.png"/>
+		<icon id="{VSO}_Invert" path="Invert.png"/>
+		<icon id="{VSO}_Match" path="Match.png"/>
+		<icon id="{VSO}_Reset" path="Reset.png"/>
+		<icon id="{VSO}_Similar" path="Similar.png"/>
+		<icon id="{VSO}_CurveLeftLinear" path="CurveLeftLinear.png"/>
+		<icon id="{VSO}_CurveLeftFree" path="CurveLeftFree.png"/>
+		<icon id="{VSO}_CurveRightLinear" path="CurveRightLinear.png"/>
+		<icon id="{VSO}_CurveRightFree" path="CurveRightFree.png"/>
+		<icon id="{VSO}_CurveRandomFlip" path="CurveRandomFlip.png"/>
+	</Icons>
+</Resources>
